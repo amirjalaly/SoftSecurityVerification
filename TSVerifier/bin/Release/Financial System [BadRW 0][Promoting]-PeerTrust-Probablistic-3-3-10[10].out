@@ -1,0 +1,13 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: PeerTrust
+Attack Plan: Promoting
+Decision Function: Probablistic
+Environment: 3 Honest Provider, 3 Attackers, 10 Clients
+Maximum Epoch: 10
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:00:02.0069040! 
+States count 8008#.
+--------------------------------------------------

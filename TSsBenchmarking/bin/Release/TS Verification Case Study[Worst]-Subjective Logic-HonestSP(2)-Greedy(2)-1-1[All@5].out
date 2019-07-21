@@ -1,0 +1,134 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Subjective Logic
+Knowledge Level: For all levels
+Environment: 2 HonestSP, 2 Greedy, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 5
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:03. [States count: 1052#]
+--------------------------------------------------
+MDP Solving <Value Itteration> is done in 00:00:00.6074025.
+                Best Value is           01.50.
+Starting Honest Reward Solving...
+States generation is completed in 00:00:00. [States count: 231#]
+MDP Solving for Plan<Honest> is done in 00:00:00.0067768. 
+                The Value is            00.00.
+--------------------------------------------------
+POMDP Estimating <QMDP> is done in 00:00:00.0970676.
+                Best Value is           01.44.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #1 out of #1
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #1 out of #1
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #1 out of #1
+Epoch 4
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #1 out of #1
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: ZeroKnowledge
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.44
+                    Attackers Ideal     05.00
+                    Robustness Measure  00.71.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.0960694.
+                Best Value is           01.50.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #2 out of #4
+#2>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #2 out of #4
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #8 out of #9
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #1 out of #9
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #12 out of #17
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #5 out of #17
+Epoch 4
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #16 out of #28
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #12 out of #28
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: RecommendationValues
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.50
+                    Attackers Ideal     05.00
+                    Robustness Measure  00.70.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.1020671.
+                Best Value is           01.50.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #2 out of #4
+#2>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #2 out of #4
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #8 out of #9
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #1 out of #9
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #12 out of #17
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #5 out of #17
+Epoch 4
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #16 out of #28
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #12 out of #28
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: TrustValues
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.50
+                    Attackers Ideal     05.00
+                    Robustness Measure  00.70.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.1430951.
+                Best Value is           01.50.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #2 out of #4
+#2>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #2 out of #4
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #8 out of #9
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #1 out of #9
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #12 out of #17
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #5 out of #17
+Epoch 4
+Max Selected Actions:
+#1>S[Bad],N H_0:(0,1,0),H_1:(0,1,0),, #16 out of #28
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #12 out of #28
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: FullObservation
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.50
+                    Attackers Ideal     05.00
+                    Robustness Measure  00.70.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

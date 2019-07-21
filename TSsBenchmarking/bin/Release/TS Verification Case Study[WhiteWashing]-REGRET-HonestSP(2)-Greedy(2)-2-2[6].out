@@ -1,0 +1,29 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: REGRET
+Attack Plan: WhiteWashing
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 Greedy, 2 Malicious SP, 2 Malicious Clients
+Maximum Epoch: 6
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:00. [States count: 187#]
+--------------------------------------------------
+MDP Solving for Plan<WhiteWashing> is done in 00:00:00.0075310. 
+                The Value is            05.00.
+--------------------------------------------------
+Starting Honest Reward Solving...
+States generation is completed in 00:00:01. [States count: 3383#]
+MDP Solving for Plan<Honest> is done in 00:00:00.1469095. 
+                The Value is            00.59.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           00.59
+                    Plan Expected Reward    05.00
+                    Attackers Ideal Reward  06.00
+--------------------------------------------------
+                    Robustness Measure  00.18.

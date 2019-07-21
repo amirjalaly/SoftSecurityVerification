@@ -1,0 +1,54 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Faulty-System-Study[1]
+Reputation Model: eBay
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 7
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.8192285! 
+States count 1590#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 7 Done in 00:00:00.7046479! 
+                Best Value is           02.68.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 7 Done in 00:00:00.0453587! 
+                The Value is            00.63.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.1725369! 
+States count 540#.
+
+MDP Solving <Value Itteration> for MaxEpoch 7 Done in 00:00:00.1501740! 
+                Best Value is           04.90.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.63
+                    Worst Plan Reward   02.68
+                    Attackers Ideal     04.90
+--------------------------------------------------
+                    Robustness Measure  00.52.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #1259 out of #6577
+#2>P[A1],S[Bad], #1116 out of #6577
+#3>S[Bad],S[Good], #1075 out of #6577
+#4>S[Good],S[Bad], #1063 out of #6577
+#5>S[Bad],P[A0], #948 out of #6577
+#6>P[A1],P[A0], #946 out of #6577
+#7>S[Good],P[A0], #85 out of #6577
+#8>P[A1],S[Good], #85 out of #6577

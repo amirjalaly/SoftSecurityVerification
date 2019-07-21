@@ -1,0 +1,10 @@
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TruSyFire\bin\Release\TruSyFire.dll
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TruSyFire\bin\Release\TruSyFire.pdb
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TruSyFire\obj\Release\TruSyFire.dll
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TruSyFire\obj\Release\TruSyFire.pdb
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TruSyFire\obj\Release\TruSyFire.csprojResolveAssemblyReference.cache
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TruSyFire\obj\Release\TruSyFire.dll
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TruSyFire\obj\Release\TruSyFire.pdb
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TruSyFire\bin\Release\TruSyFire.dll
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TruSyFire\bin\Release\TruSyFire.pdb
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TruSyFire\obj\Release\TruSyFire.csprojResolveAssemblyReference.cache

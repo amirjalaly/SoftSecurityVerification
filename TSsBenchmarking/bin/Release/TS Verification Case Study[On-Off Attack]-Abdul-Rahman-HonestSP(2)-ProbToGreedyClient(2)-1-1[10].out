@@ -1,0 +1,24 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Abdul-Rahman
+Attack Plan: On-Off Attack
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 ProbToGreedyClient, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 10
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:01:28. [States count: 122862#]
+--------------------------------------------------
+MDP Solving for Plan<On-Off Attack> is done in 00:00:08.7081014. 
+                The Value is            02.97.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           01.33
+                    Plan Expected Reward    02.97
+                    Attackers Ideal Reward  22.00
+--------------------------------------------------
+                    Robustness Measure  00.92.

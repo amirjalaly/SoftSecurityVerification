@@ -1,0 +1,55 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: Beta
+Decision Function: Maximal
+Environment: 3 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.5283544! 
+States count 1072#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.3262526! 
+                Best Value is           00.72.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0200362! 
+                The Value is            00.20.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.1601088! 
+States count 522#.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.1330941! 
+                Best Value is           03.50.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.20
+                    Worst Plan Reward   00.72
+                    Attackers Ideal     03.50
+--------------------------------------------------
+                    Robustness Measure  00.84.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>P[A1],P[A0], #30 out of #81
+#2>S[Bad],S[Bad], #24 out of #81
+#3>P[A1],S[Bad], #6 out of #81
+#4>S[Bad],P[A0], #6 out of #81
+#5>S[Bad],S[Good], #4 out of #81
+#6>S[Good],S[Bad], #4 out of #81
+#7>P[A1],S[Good], #3 out of #81
+#8>S[Good],P[A0], #3 out of #81
+#9>S[Good],S[Good], #1 out of #81

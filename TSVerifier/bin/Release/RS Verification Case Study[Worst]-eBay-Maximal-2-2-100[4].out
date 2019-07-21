@@ -1,0 +1,53 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: eBay
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 4
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.1190783! 
+States count 181#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 4 Done in 00:00:00.0530352! 
+                Best Value is           00.80.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 4 Done in 00:00:00.0050058! 
+                The Value is            00.20.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.0210161! 
+States count 105#.
+
+MDP Solving <Value Itteration> for MaxEpoch 4 Done in 00:00:00.0150053! 
+                Best Value is           02.80.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.20
+                    Worst Plan Reward   00.80
+                    Attackers Ideal     02.80
+--------------------------------------------------
+                    Robustness Measure  00.77.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>P[A1],P[A0], #14 out of #35
+#2>S[Bad],S[Bad], #8 out of #35
+#3>P[A1],S[Good], #4 out of #35
+#4>S[Good],P[A0], #4 out of #35
+#5>S[Bad],S[Good], #2 out of #35
+#6>S[Good],S[Bad], #2 out of #35
+#7>S[Good],S[Good], #1 out of #35

@@ -1,0 +1,7 @@
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\bin\Release\RSVerifier.exe
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\bin\Release\RSVerifier.pdb
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\obj\Release\RSVerifier.exe
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\obj\Release\RSVerifier.pdb
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\obj\Release\RSVerifier.csprojResolveAssemblyReference.cache
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\bin\Release\RepSyFire.dll
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\bin\Release\RepSyFire.pdb

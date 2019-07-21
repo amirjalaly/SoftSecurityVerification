@@ -1,0 +1,29 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Subjective Logic
+Attack Plan: Selfishness
+Knowledge Level: FullObservation
+Environment: 2 IsolatingSP[˂(0,0,1)], 2 Greedy, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 2
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:00. [States count: 20#]
+--------------------------------------------------
+MDP Solving for Plan<Selfishness> is done in 00:00:00.0009995. 
+                The Value is            00.61.
+--------------------------------------------------
+Starting Honest Reward Solving...
+States generation is completed in 00:00:00. [States count: 25#]
+MDP Solving for Plan<Honest> is done in 00:00:00.0009987. 
+                The Value is            00.00.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           00.00
+                    Plan Expected Reward    00.61
+                    Attackers Ideal Reward  02.00
+--------------------------------------------------
+                    Robustness Measure  00.69.

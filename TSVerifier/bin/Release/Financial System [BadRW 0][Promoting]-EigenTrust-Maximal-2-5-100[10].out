@@ -1,0 +1,14 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: EigenTrust
+Attack Plan: Promoting
+Decision Function: Maximal
+Environment: 2 Honest Provider, 5 Attackers, 100 Clients
+Maximum Epoch: 10
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:01.3240591! 
+States count 8728#.

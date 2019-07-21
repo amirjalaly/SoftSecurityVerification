@@ -1,0 +1,31 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: Core
+Attack Plan: Collusion-Promoting
+Decision Function: Probablistic
+Environment: 3 Honest Provider, 8 Attackers, 3 Clients
+Maximum Epoch: 10
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:00:00.8298481! 
+States count 8008#.
+--------------------------------------------------
+MDP Solving for Plan<Collusion-Promoting> for MaxEpoch 10 Done in 00:00:00.9146097! 
+                The Value is            00.82.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:00.6734200! 
+States count 8008#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 10 Done in 00:00:00.7747198! 
+                The Value is            00.50.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           00.50
+                    Plan Expected Reward    00.82
+                    Attackers Ideal Reward  01.00
+--------------------------------------------------
+                    Robustness Measure  00.36.

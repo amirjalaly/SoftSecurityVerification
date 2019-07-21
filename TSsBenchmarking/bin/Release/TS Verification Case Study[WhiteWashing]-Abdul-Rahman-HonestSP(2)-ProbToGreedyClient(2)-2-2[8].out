@@ -1,0 +1,24 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Abdul-Rahman
+Attack Plan: WhiteWashing
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 ProbToGreedyClient, 2 Malicious SP, 2 Malicious Clients
+Maximum Epoch: 8
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:16. [States count: 8889#]
+--------------------------------------------------
+MDP Solving for Plan<WhiteWashing> is done in 00:00:00.8934474. 
+                The Value is            04.59.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           00.80
+                    Plan Expected Reward    04.59
+                    Attackers Ideal Reward  08.00
+--------------------------------------------------
+                    Robustness Measure  00.47.

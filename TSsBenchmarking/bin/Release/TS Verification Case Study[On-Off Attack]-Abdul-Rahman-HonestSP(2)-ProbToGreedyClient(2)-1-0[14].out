@@ -1,0 +1,10 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Abdul-Rahman
+Attack Plan: On-Off Attack
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 ProbToGreedyClient, 1 Malicious SP, 0 Malicious Clients
+Maximum Epoch: 14
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

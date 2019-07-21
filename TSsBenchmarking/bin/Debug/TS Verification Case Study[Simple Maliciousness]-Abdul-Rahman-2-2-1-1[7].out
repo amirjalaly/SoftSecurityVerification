@@ -1,0 +1,29 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Abdul-Rahman
+Attack Plan: Simple Maliciousness
+Knowledge Level: FullObservation
+Environment: 2 Honest SP, 2 Honest Clients, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 7
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:00.0380937. [States count: 134#]
+--------------------------------------------------
+MDP Solving for Plan<Simple Maliciousness> is done in 00:00:00.0050049. 
+                The Value is            00.99.
+--------------------------------------------------
+Starting Honest Reward Solving...
+States generation is completed in 00:00:00.5621146. [States count: 1478#]
+MDP Solving for Plan<Honest> is done in 00:00:00.0500352. 
+                The Value is            00.47.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           00.47
+                    Plan Expected Reward    00.99
+                    Attackers Ideal Reward  07.00
+--------------------------------------------------
+                    Robustness Measure  00.92.

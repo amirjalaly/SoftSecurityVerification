@@ -1,0 +1,16 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: TRAVOS
+Attack Plan: WhiteWashing
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 ProbabilisticClient, 2 Malicious SP, 2 Malicious Clients
+Maximum Epoch: 9
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:36. [States count: 28779#]
+--------------------------------------------------
+MDP Solving for Plan<WhiteWashing> is done in 00:00:03.3979650. 
+                The Value is            05.13.
+--------------------------------------------------
+Starting Honest Reward Solving...

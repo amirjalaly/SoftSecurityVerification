@@ -1,0 +1,15 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.3]
+Reputation Model: Sporas
+Attack Plan: Oscillation
+Decision Function: Probablistic
+Environment: 1 Honest Provider, 1 Attackers, 100 Clients
+Maximum Epoch: 45
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:03.6902684! 
+States count 68794#.
+--------------------------------------------------

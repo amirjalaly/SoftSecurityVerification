@@ -1,0 +1,34 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: PeerTrust
+Attack Plan: Promoting
+Decision Function: Maximal
+Environment: 3 Honest Provider, 13 Attackers, 100 Clients
+Maximum Epoch: 6
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:14.4939491! 
+States count 51283#.
+--------------------------------------------------
+MDP Solving for Plan<Promoting> for MaxEpoch 6 Done in 00:00:46.9477948! 
+                The Value is            00.64.
+--------------------------------------------------
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward           00.50
+                    Plan Expected Reward    00.64
+                    Attackers Ideal Reward  01.00
+--------------------------------------------------
+                    Robustness Measure  00.73.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

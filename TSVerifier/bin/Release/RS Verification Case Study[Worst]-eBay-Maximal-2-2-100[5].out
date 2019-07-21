@@ -1,0 +1,55 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: eBay
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.3052044! 
+States count 502#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.1891500! 
+                Best Value is           00.98.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0124047! 
+                The Value is            00.25.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.0510335! 
+States count 196#.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.0357844! 
+                Best Value is           03.50.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.25
+                    Worst Plan Reward   00.98
+                    Attackers Ideal     03.50
+--------------------------------------------------
+                    Robustness Measure  00.78.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #112 out of #463
+#2>P[A1],P[A0], #104 out of #463
+#3>S[Bad],S[Good], #41 out of #463
+#4>S[Good],S[Bad], #41 out of #463
+#5>S[Good],S[Good], #37 out of #463
+#6>P[A1],S[Bad], #34 out of #463
+#7>S[Bad],P[A0], #34 out of #463
+#8>P[A1],S[Good], #30 out of #463
+#9>S[Good],P[A0], #30 out of #463

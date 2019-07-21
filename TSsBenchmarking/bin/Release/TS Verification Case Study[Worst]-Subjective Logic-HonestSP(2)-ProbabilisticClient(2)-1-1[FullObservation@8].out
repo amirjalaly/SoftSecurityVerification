@@ -1,0 +1,59 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Subjective Logic
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 ProbabilisticClient, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 8
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:02:36. [States count: 12870#]
+--------------------------------------------------
+MDP Solving <Value Itteration> is done in 00:00:14.1834547.
+                Best Value is           01.28.
+--------------------------------------------------
+Starting Honest Reward Solving...
+States generation is completed in 00:00:01. [States count: 3003#]
+MDP Solving for Plan<Honest> is done in 00:00:00.1269087. 
+                The Value is            01.00.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #8 out of #8
+Epoch 2
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #36 out of #36
+Epoch 3
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #120 out of #120
+Epoch 4
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #330 out of #330
+Epoch 5
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #792 out of #792
+Epoch 6
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #1716 out of #1716
+Epoch 7
+Max Selected Actions:
+#1>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #3404 out of #3432
+#2>S[Good],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #28 out of #3432
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward       01.00
+                    Worst Plan Reward   01.28
+                    Attackers Ideal     02.00
+--------------------------------------------------
+                    Robustness Measure  00.72.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

@@ -1,0 +1,13 @@
+Begin TS Verification Against Worst Case:
+Verification Title: TS Verification Case Study
+Trust Model: Subjective Logic
+Environment: 2 Honest SP, 2 Honest Clients, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 3
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:00:00.3992647! 
+States count 181#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 3 Done in 00:00:03.6218718! 
+                Best Value is           00.94.

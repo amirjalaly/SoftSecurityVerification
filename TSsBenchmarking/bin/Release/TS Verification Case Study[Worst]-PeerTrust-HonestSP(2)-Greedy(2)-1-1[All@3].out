@@ -1,0 +1,101 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: PeerTrust
+Knowledge Level: For all levels
+Environment: 2 HonestSP, 2 Greedy, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 3
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:00. [States count: 165#]
+--------------------------------------------------
+MDP Solving <Value Itteration> is done in 00:00:00.0462457.
+                Best Value is           01.75.
+Starting Honest Reward Solving...
+States generation is completed in 00:00:00. [States count: 67#]
+MDP Solving for Plan<Honest> is done in 00:00:00.0016086. 
+                The Value is            00.00.
+--------------------------------------------------
+POMDP Estimating <QMDP> is done in 00:00:00.0170120.
+                Best Value is           01.75.
+Epoch 0
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #1 out of #1
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #1 out of #1
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: ZeroKnowledge
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.75
+                    Attackers Ideal     03.00
+                    Robustness Measure  00.42.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.0180116.
+                Best Value is           01.75.
+Epoch 0
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #2 out of #2
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #6 out of #7
+#2>S[Bad],R[H_0] H_0:0,H_1:0,, #1 out of #7
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: RecommendationValues
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.75
+                    Attackers Ideal     03.00
+                    Robustness Measure  00.42.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.0220155.
+                Best Value is           01.75.
+Epoch 0
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #1 out of #1
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #3 out of #4
+#2>S[Bad],R[H_0] H_0:0,H_1:0,, #1 out of #4
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: TrustValues
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.75
+                    Attackers Ideal     03.00
+                    Robustness Measure  00.42.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.0210098.
+                Best Value is           01.75.
+Epoch 0
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #2 out of #2
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #6 out of #7
+#2>S[Bad],R[H_0] H_0:0,H_1:0,, #1 out of #7
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: FullObservation
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.75
+                    Attackers Ideal     03.00
+                    Robustness Measure  00.42.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

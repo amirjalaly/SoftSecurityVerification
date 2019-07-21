@@ -1,0 +1,56 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: eBay
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 10
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:01.4063480! 
+States count 3357#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:00:01.1576646! 
+                Best Value is           02.02.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 10 Done in 00:00:00.0761677! 
+                The Value is            00.50.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.5702496! 
+States count 1716#.
+
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:00:00.4598771! 
+                Best Value is           07.00.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.50
+                    Worst Plan Reward   02.02
+                    Attackers Ideal     07.00
+--------------------------------------------------
+                    Robustness Measure  00.77.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>P[A1],P[A0], #3274 out of #5107
+#2>S[Bad],S[Bad], #502 out of #5107
+#3>P[A1],S[Bad], #330 out of #5107
+#4>S[Bad],P[A0], #330 out of #5107
+#5>P[A1],S[Good], #240 out of #5107
+#6>S[Good],P[A0], #240 out of #5107
+#7>S[Bad],S[Good], #87 out of #5107
+#8>S[Good],S[Bad], #87 out of #5107
+#9>P[A1],U[H0], #8 out of #5107
+#10>U[H0],P[A0], #8 out of #5107

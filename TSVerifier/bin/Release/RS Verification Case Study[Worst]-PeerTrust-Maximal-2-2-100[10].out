@@ -1,0 +1,18 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: PeerTrust
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 10
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:36:55.9175175! 
+States count 140998#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:56:39.0546813! 
+                Best Value is           03.25.
+--------------------------------------------------
+Starting Honest Plan Solving...

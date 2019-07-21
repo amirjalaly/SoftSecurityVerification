@@ -1,0 +1,29 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Subjective Logic
+Attack Plan: Slandering
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 Greedy, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 8
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:00. [States count: 145#]
+--------------------------------------------------
+MDP Solving for Plan<Slandering> is done in 00:00:00.0060673. 
+                The Value is            00.80.
+--------------------------------------------------
+Starting Honest Reward Solving...
+States generation is completed in 00:00:00. [States count: 833#]
+MDP Solving for Plan<Honest> is done in 00:00:00.0259856. 
+                The Value is            00.53.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           00.53
+                    Plan Expected Reward    00.80
+                    Attackers Ideal Reward  08.00
+--------------------------------------------------
+                    Robustness Measure  00.96.

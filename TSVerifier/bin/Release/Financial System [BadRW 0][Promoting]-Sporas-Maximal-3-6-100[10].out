@@ -1,0 +1,15 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: Sporas
+Attack Plan: Promoting
+Decision Function: Maximal
+Environment: 3 Honest Provider, 6 Attackers, 100 Clients
+Maximum Epoch: 10
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:00:00.0840565! 
+States count 341#.
+--------------------------------------------------
+MDP Solving for Plan<Promoting> for MaxEpoch 10 Done in 00:00:00.0320209! 
+                The Value is            00.50.

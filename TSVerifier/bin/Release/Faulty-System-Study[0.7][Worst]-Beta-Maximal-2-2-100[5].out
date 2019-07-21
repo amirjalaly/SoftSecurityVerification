@@ -1,0 +1,53 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Faulty-System-Study[0.7]
+Reputation Model: Beta
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.6351633! 
+States count 1318#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.4790897! 
+                Best Value is           01.62.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0313900! 
+                The Value is            00.40.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.1695698! 
+States count 522#.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.1289804! 
+                Best Value is           03.50.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.40
+                    Worst Plan Reward   01.62
+                    Attackers Ideal     03.50
+--------------------------------------------------
+                    Robustness Measure  00.61.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #94 out of #149
+#2>P[A1],P[A0], #48 out of #149
+#3>S[Good],P[A0], #2 out of #149
+#4>P[A1],S[Good], #2 out of #149
+#5>S[Good],S[Good], #1 out of #149
+#6>S[Bad],S[Good], #1 out of #149
+#7>S[Good],S[Bad], #1 out of #149

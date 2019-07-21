@@ -1,0 +1,12 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: EigenTrust
+Attack Plan: Collusion-Slandering
+Decision Function: Maximal
+Environment: 3 Honest Provider, 8 Attackers, 100 Clients
+Maximum Epoch: 8
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

@@ -1,0 +1,10 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: Core
+Attack Plan: Slandering
+Decision Function: Probablistic
+Environment: 3 Honest Provider, 10 Attackers, 7 Clients
+Maximum Epoch: 10
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

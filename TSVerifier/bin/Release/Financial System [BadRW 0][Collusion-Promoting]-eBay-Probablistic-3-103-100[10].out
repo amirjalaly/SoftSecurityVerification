@@ -1,0 +1,10 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: eBay
+Attack Plan: Collusion-Promoting
+Decision Function: Probablistic
+Environment: 3 Honest Provider, 103 Attackers, 100 Clients
+Maximum Epoch: 10
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

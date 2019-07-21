@@ -1,0 +1,55 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Faulty-System-Study[0.5]
+Reputation Model: REGRET
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.5591986! 
+States count 1357#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.3632383! 
+                Best Value is           01.39.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0280183! 
+                The Value is            00.37.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.1190789! 
+States count 522#.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.0930616! 
+                Best Value is           03.50.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.37
+                    Worst Plan Reward   01.39
+                    Attackers Ideal     03.50
+--------------------------------------------------
+                    Robustness Measure  00.68.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #128 out of #195
+#2>P[A1],P[A0], #40 out of #195
+#3>P[A1],S[Bad], #6 out of #195
+#4>S[Good],P[A0], #4 out of #195
+#5>S[Good],S[Bad], #4 out of #195
+#6>S[Bad],P[A0], #4 out of #195
+#7>P[A1],S[Good], #4 out of #195
+#8>S[Bad],S[Good], #4 out of #195
+#9>S[Good],S[Good], #1 out of #195

@@ -1,0 +1,12 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.3]
+Reputation Model: Sporas
+Attack Plan: Simple-Malic
+Decision Function: Maximal
+Environment: 1 Honest Provider, 1 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

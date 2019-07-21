@@ -1,0 +1,64 @@
+Begin TS Verification Against Worst Case:
+Verification Title: TS Verification Case Study
+Trust Model: Abdul-Rahman
+Environment: 2 Honest SP, 2 Honest Clients, 1 Malicious SP, 1 Malicious Clients
+Knowledge Level: FullObservation
+Maximum Epoch: 5
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:00:33.4393232! 
+States count 4811#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:02.8215472! 
+                Best Value is           03.27.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:00.1791221! 
+States count 441#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0150063! 
+                The Value is            00.33.
+Honest Plan Solving is Done...
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+Epoch 0
+Max Selected Actions:
+#1>S[Bad],N H_0:vg,H_1:vg,, #1 out of #1
+--------------------------------------------------
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vg,, #2 out of #4
+#2>S[Bad],N H_0:vg,H_1:vb,, #2 out of #4
+--------------------------------------------------
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vb,, #8 out of #14
+#2>S[Bad],N H_0:vb,H_1:vg,, #3 out of #14
+#3>S[Bad],N H_0:vg,H_1:vb,, #3 out of #14
+--------------------------------------------------
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vb,, #36 out of #42
+#2>S[Bad],N H_0:vb,H_1:vg,, #3 out of #42
+#3>S[Bad],N H_0:vg,H_1:vb,, #3 out of #42
+--------------------------------------------------
+Epoch 4
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vb,, #102 out of #108
+#2>S[Bad],U[H_0] H_0:vb,H_1:vb,, #6 out of #108
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward       00.33
+                    Worst Plan Reward   03.27
+                    Attackers Ideal     05.00
+--------------------------------------------------
+                    Robustness Measure  00.37.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

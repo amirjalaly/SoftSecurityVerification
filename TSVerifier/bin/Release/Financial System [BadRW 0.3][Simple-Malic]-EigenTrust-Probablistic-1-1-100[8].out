@@ -1,0 +1,42 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.3]
+Reputation Model: EigenTrust
+Attack Plan: Simple-Malic
+Decision Function: Probablistic
+Environment: 1 Honest Provider, 1 Attackers, 100 Clients
+Maximum Epoch: 8
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.0030054! 
+States count 45#.
+--------------------------------------------------
+MDP Solving for Plan<Simple-Malic> for MaxEpoch 8 Done in 00:00:00.0057773! 
+                The Value is            02.07.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:00.0030044! 
+States count 45#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 8 Done in 00:00:00.0069116! 
+                The Value is            00.41.
+Honest Plan Solving is Done...
+--------------------------------------------------
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward           00.41
+                    Plan Expected Reward    02.07
+                    Attackers Ideal Reward  05.60
+--------------------------------------------------
+                    Robustness Measure  00.68.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

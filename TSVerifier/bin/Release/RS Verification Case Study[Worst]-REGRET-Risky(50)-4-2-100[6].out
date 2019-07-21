@@ -1,0 +1,34 @@
+States generation is completes in 00:00:17.7353087! 
+States count 16508#.
+
+MDP Solving <Value Itteration> for MaxEpoch 6 Done in 00:00:13.5475807! 
+                Best Value is           01.39.
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 6 Done in 00:00:00.7187831! 
+                The Value is            00.20.
+Honest Plan Solving is Done...
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.8437976! 
+States count 2116#.
+
+MDP Solving <Value Itteration> for MaxEpoch 6 Done in 00:00:00.4844081! 
+                Best Value is           04.20.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.20
+                    Worst Plan Reward   01.39
+                    Attackers Ideal     04.20
+--------------------------------------------------
+                    Robustness Measure  00.70.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #9331 out of #9331

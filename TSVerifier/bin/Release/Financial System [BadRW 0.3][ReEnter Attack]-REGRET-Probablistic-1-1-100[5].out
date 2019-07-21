@@ -1,0 +1,42 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.3]
+Reputation Model: REGRET
+Attack Plan: ReEnter Attack
+Decision Function: Probablistic
+Environment: 1 Honest Provider, 1 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.0600382! 
+States count 21#.
+--------------------------------------------------
+MDP Solving for Plan<ReEnter Attack> for MaxEpoch 5 Done in 00:00:00.0180111! 
+                The Value is            01.02.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:00.0010004! 
+States count 21#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0020009! 
+                The Value is            00.25.
+Honest Plan Solving is Done...
+--------------------------------------------------
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward           00.25
+                    Plan Expected Reward    01.02
+                    Attackers Ideal Reward  03.50
+--------------------------------------------------
+                    Robustness Measure  00.76.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

@@ -1,0 +1,125 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Abdul-Rahman
+Knowledge Level: For all levels
+Environment: 2 HonestSP, 2 Greedy, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 4
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:04. [States count: 1283#]
+--------------------------------------------------
+MDP Solving <Value Itteration> is done in 00:00:00.5712459.
+                Best Value is           01.34.
+Starting Honest Reward Solving...
+States generation is completed in 00:00:00. [States count: 207#]
+MDP Solving for Plan<Honest> is done in 00:00:00.0070067. 
+                The Value is            00.00.
+--------------------------------------------------
+POMDP Estimating <QMDP> is done in 00:00:00.1470997.
+                Best Value is           01.27.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:vg,H_1:vg,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:vg,H_1:vg,, #1 out of #1
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vb,, #1 out of #1
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vb,, #1 out of #1
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: ZeroKnowledge
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.27
+                    Attackers Ideal     04.00
+                    Robustness Measure  00.68.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.1190818.
+                Best Value is           01.34.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:vg,H_1:vg,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vg,, #2 out of #4
+#2>S[Bad],N H_0:vg,H_1:vb,, #2 out of #4
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vb,, #7 out of #13
+#2>S[Bad],N H_0:vg,H_1:vg,, #2 out of #13
+#3>S[Bad],N H_0:vb,H_1:vg,, #2 out of #13
+#4>S[Bad],N H_0:vg,H_1:vb,, #2 out of #13
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vb,, #25 out of #33
+#2>S[Bad],R[H_0] H_0:vb,H_1:vb,, #8 out of #33
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: RecommendationValues
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.34
+                    Attackers Ideal     04.00
+                    Robustness Measure  00.66.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.1270814.
+                Best Value is           01.34.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:vg,H_1:vg,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vg,, #2 out of #4
+#2>S[Bad],N H_0:vg,H_1:vb,, #2 out of #4
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vb,, #7 out of #13
+#2>S[Bad],N H_0:vg,H_1:vg,, #2 out of #13
+#3>S[Bad],N H_0:vb,H_1:vg,, #2 out of #13
+#4>S[Bad],N H_0:vg,H_1:vb,, #2 out of #13
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vb,, #24 out of #32
+#2>S[Bad],R[H_0] H_0:vb,H_1:vb,, #8 out of #32
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: TrustValues
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.34
+                    Attackers Ideal     04.00
+                    Robustness Measure  00.66.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.1150792.
+                Best Value is           01.34.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:vg,H_1:vg,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vg,, #2 out of #4
+#2>S[Bad],N H_0:vg,H_1:vb,, #2 out of #4
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vb,, #7 out of #13
+#2>S[Bad],N H_0:vg,H_1:vg,, #2 out of #13
+#3>S[Bad],N H_0:vb,H_1:vg,, #2 out of #13
+#4>S[Bad],N H_0:vg,H_1:vb,, #2 out of #13
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:vb,H_1:vb,, #24 out of #32
+#2>S[Bad],R[H_0] H_0:vb,H_1:vb,, #8 out of #32
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: FullObservation
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.34
+                    Attackers Ideal     04.00
+                    Robustness Measure  00.66.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

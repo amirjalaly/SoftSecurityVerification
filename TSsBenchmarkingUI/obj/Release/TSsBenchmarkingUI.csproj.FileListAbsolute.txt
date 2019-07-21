@@ -1,0 +1,11 @@
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarkingUI\bin\Release\TSsBenchmarkingUI.exe.config
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarkingUI\obj\Release\TSsBenchmarkingUI.csprojResolveAssemblyReference.cache
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarkingUI\obj\Release\TSsBenchmarkingUI.Benchmarking.resources
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarkingUI\obj\Release\TSsBenchmarkingUI.Properties.Resources.resources
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarkingUI\obj\Release\TSsBenchmarkingUI.csproj.GenerateResource.Cache
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarkingUI\bin\Release\TSsBenchmarkingUI.exe
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarkingUI\bin\Release\TSsBenchmarkingUI.pdb
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarkingUI\bin\Release\TruSyFire.dll
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarkingUI\bin\Release\TruSyFire.pdb
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarkingUI\obj\Release\TSsBenchmarkingUI.exe
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarkingUI\obj\Release\TSsBenchmarkingUI.pdb

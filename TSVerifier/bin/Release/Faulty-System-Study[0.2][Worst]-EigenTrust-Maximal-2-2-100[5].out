@@ -1,0 +1,36 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Faulty-System-Study[0.2]
+Reputation Model: EigenTrust
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 5
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:00:03.5486726! 
+States count 5242#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:04.2949589! 
+                Best Value is           01.65.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:00.0130121! 
+States count 211#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0220147! 
+                The Value is            00.29.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward       00.29
+                    Worst Plan Reward   01.65
+                    Attackers Ideal     03.50
+--------------------------------------------------
+                    Robustness Measure  00.58.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

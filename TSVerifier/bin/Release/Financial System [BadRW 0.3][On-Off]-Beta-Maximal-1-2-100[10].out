@@ -1,0 +1,14 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.3]
+Reputation Model: Beta
+Attack Plan: On-Off
+Decision Function: Maximal
+Environment: 1 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 10
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.0560387! 
+States count 33#.

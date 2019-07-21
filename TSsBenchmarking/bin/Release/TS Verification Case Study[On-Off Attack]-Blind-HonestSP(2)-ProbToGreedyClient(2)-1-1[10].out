@@ -1,0 +1,24 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Blind
+Attack Plan: On-Off Attack
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 ProbToGreedyClient, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 10
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:06. [States count: 13811#]
+--------------------------------------------------
+MDP Solving for Plan<On-Off Attack> is done in 00:00:00.8682147. 
+                The Value is            04.33.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           01.33
+                    Plan Expected Reward    04.33
+                    Attackers Ideal Reward  22.00
+--------------------------------------------------
+                    Robustness Measure  00.85.

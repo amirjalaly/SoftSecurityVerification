@@ -1,0 +1,227 @@
+States generation is completes in 00:00:40.4291153! 
+States count 13340#.
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:00.1410929! 
+                Best Value is 0.233333333333333.
+MDP Solving for Plan<Honest> for MaxEpoch 1 Done in 00:00:00.0050031! 
+                The Value is        00.03.
+                Value / Honest Behavior   07.00.
+MDP Solving <Value Itteration> for MaxEpoch 2 Done in 00:00:00.6354252! 
+                Best Value is 0.311111111111111.
+MDP Solving for Plan<Honest> for MaxEpoch 2 Done in 00:00:00.0225340! 
+                The Value is        00.07.
+                Value / Honest Behavior   04.67.
+MDP Solving <Value Itteration> for MaxEpoch 3 Done in 00:00:03.6157336! 
+                Best Value is 0.421067106710671.
+MDP Solving for Plan<Honest> for MaxEpoch 3 Done in 00:00:00.1231492! 
+                The Value is        00.10.
+                Value / Honest Behavior   04.21.
+MDP Solving <Value Itteration> for MaxEpoch 4 Done in 00:00:14.0303072! 
+                Best Value is 0.631125136392498.
+MDP Solving for Plan<Honest> for MaxEpoch 4 Done in 00:00:00.4432955! 
+                The Value is        00.13.
+                Value / Honest Behavior   04.73.
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:01:03.7910610! 
+                Best Value is 0.786422515746122.
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:04.0634275! 
+                The Value is        00.17.
+                Value / Honest Behavior   04.72.
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:01:05.2565875! 
+                Best Value is 0.786422515746122.
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:03.3685873! 
+                The Value is        00.17.
+                Value / Honest Behavior   04.72.
+Max Selected Actions:
+#1>S[Bad],S[Bad], #47 out of #118
+#2>P[A1],P[A0], #40 out of #118
+#3>P[A1],S[Bad], #15 out of #118
+#4>S[Bad],P[A0], #12 out of #118
+#5>P[A1],S[Good], #3 out of #118
+#6>S[Good],S[Good], #1 out of #118
+States generation is completes in 00:00:01.1465864! 
+States count 802#.
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:00.0700398! 
+                Best Value is       0.233333333333333.
+MDP Solving for Plan<Honest> for MaxEpoch 1 Done in 00:00:00.0030017! 
+                The Value is        00.03.
+                Value / Honest Behavior   07.00.
+MDP Solving <Value Itteration> for MaxEpoch 2 Done in 00:00:00.4072738! 
+                Best Value is       0.311111111111111.
+MDP Solving for Plan<Honest> for MaxEpoch 2 Done in 00:00:00.0166313! 
+                The Value is        00.07.
+                Value / Honest Behavior   04.67.
+MDP Solving <Value Itteration> for MaxEpoch 3 Done in 00:00:03.1812520! 
+                Best Value is       0.421067106710671.
+MDP Solving for Plan<Honest> for MaxEpoch 3 Done in 00:00:00.2171491! 
+                The Value is        00.10.
+                Value / Honest Behavior   04.21.
+Max Selected Actions:
+#1>P[A1],P[A0], #16 out of #23
+#2>S[Bad],S[Bad], #5 out of #23
+#3>S[Good],S[Good], #1 out of #23
+#4>P[A1],S[Bad], #1 out of #23
+States generation is completes in 00:00:01.1968842! 
+States count 802#.
+
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:00.0690451! 
+                Best Value is           00.23.
+MDP Solving for Plan<Honest> for MaxEpoch 1 Done in 00:00:00.0030018! 
+                The Value is            00.03.
+                Value / Honest Behavior   07.00.
+
+MDP Solving <Value Itteration> for MaxEpoch 2 Done in 00:00:00.4174795! 
+                Best Value is           00.31.
+MDP Solving for Plan<Honest> for MaxEpoch 2 Done in 00:00:00.0160156! 
+                The Value is            00.07.
+                Value / Honest Behavior   04.67.
+
+MDP Solving <Value Itteration> for MaxEpoch 3 Done in 00:00:03.1842975! 
+                Best Value is           00.42.
+MDP Solving for Plan<Honest> for MaxEpoch 3 Done in 00:00:00.2172303! 
+                The Value is            00.10.
+                Value / Honest Behavior   04.21.
+Max Selected Actions:
+#1>P[A1],P[A0], #16 out of #23
+#2>S[Bad],S[Bad], #5 out of #23
+#3>S[Good],S[Good], #1 out of #23
+#4>P[A1],S[Bad], #1 out of #23
+States generation is completes in 00:03:02.1133808! 
+States count 43518#.
+
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:00.1101797! 
+                Best Value is           00.23.
+MDP Solving for Plan<Honest> for MaxEpoch 1 Done in 00:00:00.0040018! 
+                The Value is            00.03.
+                Value / Honest Behavior   07.00.
+
+MDP Solving <Value Itteration> for MaxEpoch 2 Done in 00:00:00.5853915! 
+                Best Value is           00.31.
+MDP Solving for Plan<Honest> for MaxEpoch 2 Done in 00:00:00.0201658! 
+                The Value is            00.07.
+                Value / Honest Behavior   04.67.
+
+MDP Solving <Value Itteration> for MaxEpoch 3 Done in 00:00:03.5892112! 
+                Best Value is           00.42.
+MDP Solving for Plan<Honest> for MaxEpoch 3 Done in 00:00:00.1145438! 
+                The Value is            00.10.
+                Value / Honest Behavior   04.21.
+
+MDP Solving <Value Itteration> for MaxEpoch 4 Done in 00:00:16.2197578! 
+                Best Value is           00.63.
+MDP Solving for Plan<Honest> for MaxEpoch 4 Done in 00:00:00.4867566! 
+                The Value is            00.13.
+                Value / Honest Behavior   04.73.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:01:08.3293314! 
+                Best Value is           00.79.
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:01.8396649! 
+                The Value is            00.17.
+                Value / Honest Behavior   04.72.
+
+MDP Solving <Value Itteration> for MaxEpoch 6 Done in 00:04:32.5009957! 
+                Best Value is           01.00.
+MDP Solving for Plan<Honest> for MaxEpoch 6 Done in 00:00:12.0142012! 
+                The Value is            00.20.
+                Value / Honest Behavior   04.99.
+Max Selected Actions:
+#1>S[Bad],S[Bad], #103 out of #211
+#2>P[A1],P[A0], #52 out of #211
+#3>P[A1],S[Bad], #28 out of #211
+#4>S[Bad],P[A0], #24 out of #211
+#5>P[A1],S[Good], #3 out of #211
+#6>S[Good],S[Good], #1 out of #211
+States generation is completes in 00:01:04.0167299! 
+States count 20410#.
+
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:00.2091376! 
+                Best Value is           00.23.
+MDP Solving for Plan<Honest> for MaxEpoch 1 Done in 00:00:00.0070057! 
+                The Value is            00.03.
+                Value / Honest Behavior   07.00.
+
+MDP Solving <Value Itteration> for MaxEpoch 2 Done in 00:00:00.7845202! 
+                Best Value is           00.31.
+MDP Solving for Plan<Honest> for MaxEpoch 2 Done in 00:00:00.0470319! 
+                The Value is            00.07.
+                Value / Honest Behavior   04.67.
+
+MDP Solving <Value Itteration> for MaxEpoch 3 Done in 00:00:03.3992534! 
+                Best Value is           00.42.
+MDP Solving for Plan<Honest> for MaxEpoch 3 Done in 00:00:00.1571031! 
+                The Value is            00.10.
+                Value / Honest Behavior   04.21.
+
+MDP Solving <Value Itteration> for MaxEpoch 4 Done in 00:00:12.3141651! 
+                Best Value is           00.63.
+MDP Solving for Plan<Honest> for MaxEpoch 4 Done in 00:00:00.3412269! 
+                The Value is            00.13.
+                Value / Honest Behavior   04.73.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:28.0073868! 
+                Best Value is           00.79.
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.8839176! 
+                The Value is            00.17.
+                Value / Honest Behavior   04.72.
+
+MDP Solving <Value Itteration> for MaxEpoch 6 Done in 00:01:27.7580246! 
+                Best Value is           01.00.
+MDP Solving for Plan<Honest> for MaxEpoch 6 Done in 00:00:05.7675069! 
+                The Value is            00.20.
+                Value / Honest Behavior   04.99.
+Max Selected Actions:
+#1>S[Bad],S[Bad], #103 out of #211
+#2>P[A1],P[A0], #52 out of #211
+#3>P[A1],S[Bad], #28 out of #211
+#4>S[Bad],P[A0], #24 out of #211
+#5>P[A1],S[Good], #3 out of #211
+#6>S[Good],S[Good], #1 out of #211
+States generation is completes in 00:03:35.7489091! 
+States count 53696#.
+
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:00.1200787! 
+                Best Value is           00.23.
+MDP Solving for Plan<Honest> for MaxEpoch 1 Done in 00:00:00.0060057! 
+                The Value is            00.03.
+                Value / Honest Behavior   07.00.
+
+MDP Solving <Value Itteration> for MaxEpoch 2 Done in 00:00:00.4553008! 
+                Best Value is           00.31.
+MDP Solving for Plan<Honest> for MaxEpoch 2 Done in 00:00:00.0210142! 
+                The Value is            00.07.
+                Value / Honest Behavior   04.67.
+
+MDP Solving <Value Itteration> for MaxEpoch 3 Done in 00:00:02.5937199! 
+                Best Value is           00.42.
+MDP Solving for Plan<Honest> for MaxEpoch 3 Done in 00:00:00.1030690! 
+                The Value is            00.10.
+                Value / Honest Behavior   04.21.
+
+MDP Solving <Value Itteration> for MaxEpoch 4 Done in 00:00:12.1320438! 
+                Best Value is           00.63.
+MDP Solving for Plan<Honest> for MaxEpoch 4 Done in 00:00:00.4683110! 
+                The Value is            00.13.
+                Value / Honest Behavior   04.73.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:46.2566719! 
+                Best Value is           00.79.
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:01.7381523! 
+                The Value is            00.17.
+                Value / Honest Behavior   04.72.
+
+MDP Solving <Value Itteration> for MaxEpoch 6 Done in 00:01:52.9990165! 
+                Best Value is           01.00.
+MDP Solving for Plan<Honest> for MaxEpoch 6 Done in 00:00:04.8822377! 
+                The Value is            00.20.
+                Value / Honest Behavior   04.99.
+
+MDP Solving <Value Itteration> for MaxEpoch 7 Done in 00:04:16.4271162! 
+                Best Value is           01.15.
+MDP Solving for Plan<Honest> for MaxEpoch 7 Done in 00:00:12.8794773! 
+                The Value is            00.23.
+                Value / Honest Behavior   04.95.
+Max Selected Actions:
+#1>S[Bad],S[Bad], #197 out of #354
+#2>P[A1],P[A0], #64 out of #354
+#3>P[A1],S[Bad], #48 out of #354
+#4>S[Bad],P[A0], #40 out of #354
+#5>P[A1],S[Good], #4 out of #354
+#6>S[Good],S[Good], #1 out of #354

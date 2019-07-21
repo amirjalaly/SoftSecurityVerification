@@ -1,0 +1,55 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: eBay
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 7
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.3702494! 
+States count 997#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 7 Done in 00:00:00.2721714! 
+                Best Value is           01.38.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 7 Done in 00:00:00.0193886! 
+                The Value is            00.35.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.1300855! 
+States count 540#.
+
+MDP Solving <Value Itteration> for MaxEpoch 7 Done in 00:00:00.1040690! 
+                Best Value is           04.90.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.35
+                    Worst Plan Reward   01.38
+                    Attackers Ideal     04.90
+--------------------------------------------------
+                    Robustness Measure  00.77.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>P[A1],P[A0], #164 out of #363
+#2>S[Bad],S[Bad], #66 out of #363
+#3>P[A1],S[Bad], #30 out of #363
+#4>S[Bad],P[A0], #30 out of #363
+#5>P[A1],S[Good], #26 out of #363
+#6>S[Good],P[A0], #26 out of #363
+#7>S[Bad],S[Good], #10 out of #363
+#8>S[Good],S[Bad], #10 out of #363
+#9>S[Good],S[Good], #1 out of #363

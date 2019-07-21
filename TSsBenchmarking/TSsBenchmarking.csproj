@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D31F50C-ADDA-46BE-AFAF-05438EE882E3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TSsBenchmarking</RootNamespace>
+    <AssemblyName>TSsBenchmarking</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttackPlan\OnOff.cs" />
+    <Compile Include="AttackPlan\Promoting.cs" />
+    <Compile Include="AttackPlan\Selfishness.cs" />
+    <Compile Include="AttackPlan\SimMaliciousness.cs" />
+    <Compile Include="AttackPlan\Slandering.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrustSystems\Abdul_Rahman\History.cs" />
+    <Compile Include="TrustSystems\Abdul_Rahman\Recommendation.cs" />
+    <Compile Include="TrustSystems\Abdul_Rahman\TCM.cs" />
+    <Compile Include="TrustSystems\Blind\History.cs" />
+    <Compile Include="TrustSystems\Blind\Recommendation.cs" />
+    <Compile Include="TrustSystems\Blind\TCM.cs" />
+    <Compile Include="TrustSystems\Naive\History.cs" />
+    <Compile Include="TrustSystems\Naive\Recommendation.cs" />
+    <Compile Include="TrustSystems\Naive\TCM.cs" />
+    <Compile Include="TrustSystems\PeerTrust\History.cs" />
+    <Compile Include="TrustSystems\PeerTrust\Recommendation.cs" />
+    <Compile Include="TrustSystems\PeerTrust\TCM.cs" />
+    <Compile Include="TrustSystems\Regret\History.cs" />
+    <Compile Include="TrustSystems\Regret\Recommendation.cs" />
+    <Compile Include="TrustSystems\Regret\TCM.cs" />
+    <Compile Include="TrustSystems\SubjectiveLogic\History.cs" />
+    <Compile Include="TrustSystems\SubjectiveLogic\Recommendation.cs" />
+    <Compile Include="TrustSystems\SubjectiveLogic\TCM.cs" />
+    <Compile Include="TrustSystems\TRAVOS\History.cs" />
+    <Compile Include="TrustSystems\TRAVOS\Recommendation.cs" />
+    <Compile Include="TrustSystems\TRAVOS\TCM.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TruSyFire\TruSyFire.csproj">
+      <Project>{70afe4a8-5a48-440f-945d-3bc2c0bba1b5}</Project>
+      <Name>TruSyFire</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

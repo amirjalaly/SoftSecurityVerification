@@ -1,0 +1,51 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.6]
+Reputation Model: EigenTrust
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:01.5026007! 
+States count 2397#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:01.6156622! 
+                Best Value is           00.84.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.1360701! 
+                The Value is            00.25.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.5413606! 
+States count 1255#.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.4101325! 
+                Best Value is           02.00.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.25
+                    Worst Plan Reward   00.84
+                    Attackers Ideal     02.00
+--------------------------------------------------
+                    Robustness Measure  00.66.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #30 out of #69
+#2>P[A1],P[A0], #20 out of #69
+#3>S[Bad],P[A0], #9 out of #69
+#4>P[A1],S[Bad], #9 out of #69
+#5>S[Good],S[Good], #1 out of #69

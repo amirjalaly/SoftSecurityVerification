@@ -1,0 +1,55 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: PeerTrust
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 9
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:01:51.8462202! 
+States count 72930#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 9 Done in 00:01:30.8586668! 
+                Best Value is           02.89.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 9 Done in 00:00:06.1250453! 
+                The Value is            00.45.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:19.9737318! 
+States count 24310#.
+
+MDP Solving <Value Itteration> for MaxEpoch 9 Done in 00:00:11.4718905! 
+                Best Value is           06.30.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.45
+                    Worst Plan Reward   02.89
+                    Attackers Ideal     06.30
+--------------------------------------------------
+                    Robustness Measure  00.58.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #608 out of #1125
+#2>P[A1],P[A0], #268 out of #1125
+#3>S[Bad],P[A0], #62 out of #1125
+#4>P[A1],S[Bad], #62 out of #1125
+#5>S[Bad],S[Good], #49 out of #1125
+#6>S[Good],S[Bad], #49 out of #1125
+#7>U[H0],S[Good], #13 out of #1125
+#8>S[Good],U[H0], #13 out of #1125
+#9>S[Good],S[Good], #1 out of #1125

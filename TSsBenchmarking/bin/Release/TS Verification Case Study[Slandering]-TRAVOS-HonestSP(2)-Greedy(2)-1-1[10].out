@@ -1,0 +1,24 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: TRAVOS
+Attack Plan: Slandering
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 Greedy, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 10
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:00. [States count: 2202#]
+--------------------------------------------------
+MDP Solving for Plan<Slandering> is done in 00:00:00.0789517. 
+                The Value is            06.00.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           01.33
+                    Plan Expected Reward    06.00
+                    Attackers Ideal Reward  22.00
+--------------------------------------------------
+                    Robustness Measure  00.77.

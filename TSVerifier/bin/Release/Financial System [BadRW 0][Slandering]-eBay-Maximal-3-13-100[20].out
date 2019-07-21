@@ -1,0 +1,34 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: eBay
+Attack Plan: Slandering
+Decision Function: Maximal
+Environment: 3 Honest Provider, 13 Attackers, 100 Clients
+Maximum Epoch: 20
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:21.2803891! 
+States count 91322#.
+--------------------------------------------------
+MDP Solving for Plan<Slandering> for MaxEpoch 20 Done in 00:00:14.8419263! 
+                The Value is            00.52.
+--------------------------------------------------
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward           00.50
+                    Plan Expected Reward    00.52
+                    Attackers Ideal Reward  01.00
+--------------------------------------------------
+                    Robustness Measure  00.96.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

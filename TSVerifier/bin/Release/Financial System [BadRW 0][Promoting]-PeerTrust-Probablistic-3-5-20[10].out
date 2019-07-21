@@ -1,0 +1,10 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: PeerTrust
+Attack Plan: Promoting
+Decision Function: Probablistic
+Environment: 3 Honest Provider, 5 Attackers, 20 Clients
+Maximum Epoch: 10
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

@@ -1,0 +1,51 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: EigenTrust
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 10
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:02:51.6192236! 
+States count 107871#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:01:47.8915847! 
+                Best Value is           03.18.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 10 Done in 00:00:06.2934200! 
+                The Value is            00.50.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:32.2255129! 
+States count 36399#.
+
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:00:19.7001543! 
+                Best Value is           07.00.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.50
+                    Worst Plan Reward   03.18
+                    Attackers Ideal     07.00
+--------------------------------------------------
+                    Robustness Measure  00.59.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #410 out of #589
+#2>S[Bad],P[A0], #64 out of #589
+#3>P[A1],S[Bad], #64 out of #589
+#4>P[A1],P[A0], #50 out of #589
+#5>S[Good],S[Good], #1 out of #589

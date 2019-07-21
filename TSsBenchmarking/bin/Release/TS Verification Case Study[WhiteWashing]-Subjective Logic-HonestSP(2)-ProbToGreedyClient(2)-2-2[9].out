@@ -1,0 +1,24 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Subjective Logic
+Attack Plan: WhiteWashing
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 ProbToGreedyClient, 2 Malicious SP, 2 Malicious Clients
+Maximum Epoch: 9
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:05. [States count: 5005#]
+--------------------------------------------------
+MDP Solving for Plan<WhiteWashing> is done in 00:00:00.4337328. 
+                The Value is            03.03.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           00.90
+                    Plan Expected Reward    03.03
+                    Attackers Ideal Reward  09.00
+--------------------------------------------------
+                    Robustness Measure  00.74.

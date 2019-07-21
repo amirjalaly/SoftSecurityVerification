@@ -1,0 +1,5 @@
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\obj\Debug\RSVerifier.csprojResolveAssemblyReference.cache
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\bin\Debug\RSVerifier.exe
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\bin\Debug\RSVerifier.pdb
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\obj\Debug\RSVerifier.exe
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RSVerifier\obj\Debug\RSVerifier.pdb

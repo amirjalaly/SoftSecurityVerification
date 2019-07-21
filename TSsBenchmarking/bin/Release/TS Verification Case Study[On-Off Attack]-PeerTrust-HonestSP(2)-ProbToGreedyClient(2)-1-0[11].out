@@ -1,0 +1,29 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: PeerTrust
+Attack Plan: On-Off Attack
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 ProbToGreedyClient, 1 Malicious SP, 0 Malicious Clients
+Maximum Epoch: 11
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:05. [States count: 7519#]
+--------------------------------------------------
+MDP Solving for Plan<On-Off Attack> is done in 00:00:00.4635333. 
+                The Value is            02.14.
+--------------------------------------------------
+Starting Honest Reward Solving...
+States generation is completed in 00:00:00. [States count: 1365#]
+MDP Solving for Plan<Honest> is done in 00:00:00.0569620. 
+                The Value is            01.18.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           01.18
+                    Plan Expected Reward    02.14
+                    Attackers Ideal Reward  11.00
+--------------------------------------------------
+                    Robustness Measure  00.90.

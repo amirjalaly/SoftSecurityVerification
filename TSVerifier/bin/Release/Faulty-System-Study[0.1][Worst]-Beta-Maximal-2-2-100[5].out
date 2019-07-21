@@ -1,0 +1,55 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Faulty-System-Study[0.1]
+Reputation Model: Beta
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.8105417! 
+States count 1318#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.5599558! 
+                Best Value is           01.02.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0302013! 
+                The Value is            00.27.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.1674462! 
+States count 522#.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.1226605! 
+                Best Value is           03.50.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.27
+                    Worst Plan Reward   01.02
+                    Attackers Ideal     03.50
+--------------------------------------------------
+                    Robustness Measure  00.77.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #92 out of #169
+#2>P[A1],P[A0], #46 out of #169
+#3>S[Good],S[Good], #5 out of #169
+#4>S[Bad],S[Good], #5 out of #169
+#5>S[Good],S[Bad], #5 out of #169
+#6>P[A1],S[Good], #4 out of #169
+#7>S[Good],P[A0], #4 out of #169
+#8>P[A1],S[Bad], #4 out of #169
+#9>S[Bad],P[A0], #4 out of #169

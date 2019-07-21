@@ -1,0 +1,29 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: PeerTrust
+Attack Plan: Selfishness
+Knowledge Level: FullObservation
+Environment: 2 IsolatingSP[˂0.5], 2 Greedy, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 14
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:01:18. [States count: 44317#]
+--------------------------------------------------
+MDP Solving for Plan<Selfishness> is done in 00:00:10.3546139. 
+                The Value is            02.11.
+--------------------------------------------------
+Starting Honest Reward Solving...
+States generation is completed in 00:00:13. [States count: 8548#]
+MDP Solving for Plan<Honest> is done in 00:00:00.5236746. 
+                The Value is            00.00.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           00.00
+                    Plan Expected Reward    02.11
+                    Attackers Ideal Reward  14.00
+--------------------------------------------------
+                    Robustness Measure  00.85.

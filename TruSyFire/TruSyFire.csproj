@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70AFE4A8-5A48-440F-945D-3BC2C0BBA1B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TruSyFire</RootNamespace>
+    <AssemblyName>TruSyFire</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auxiliary\Console.cs" />
+    <Compile Include="MDP\IAction.cs" />
+    <Compile Include="MDP\IPlan.cs" />
+    <Compile Include="MDP\IState.cs" />
+    <Compile Include="MDP\MDP.cs" />
+    <Compile Include="MDP\MDPSolver.cs" />
+    <Compile Include="MDP\Simulator.cs" />
+    <Compile Include="POMDP\Belief.cs" />
+    <Compile Include="POMDP\IObserveFunction.cs" />
+    <Compile Include="POMDP\IPlan.cs" />
+    <Compile Include="POMDP\POMDP.cs" />
+    <Compile Include="POMDP\POMDPEstimator.cs" />
+    <Compile Include="POMDP\POMDPSimulator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrustSystems\Attackers\Action.cs" />
+    <Compile Include="TrustSystems\Attackers\AtomicAction.cs" />
+    <Compile Include="TrustSystems\Attackers\Attacker.cs" />
+    <Compile Include="TrustSystems\Attackers\Plan.cs" />
+    <Compile Include="TrustSystems\Attackers\Rewards.cs" />
+    <Compile Include="TrustSystems\Environment\HonestEntities\Client.cs" />
+    <Compile Include="TrustSystems\Environment\IEntity.cs" />
+    <Compile Include="TrustSystems\Environment\IClient.cs" />
+    <Compile Include="TrustSystems\Environment\Environment.cs" />
+    <Compile Include="TrustSystems\Environment\HonestEntities\Provider.cs" />
+    <Compile Include="TrustSystems\Environment\IServiceProvider.cs" />
+    <Compile Include="TrustSystems\TrustComputationModel\IHistory.cs" />
+    <Compile Include="TrustSystems\TrustComputationModel\Recommendation.cs" />
+    <Compile Include="TrustSystems\TrustComputationModel\TCM.cs" />
+    <Compile Include="TrustSystems\TrustComputationModel\QoS.cs" />
+    <Compile Include="Verification\AttackerObservation.cs" />
+    <Compile Include="Verification\RobustnessMeasure\AtomicAction.cs" />
+    <Compile Include="Verification\TSSimulator.cs" />
+    <Compile Include="Verification\TrustSystem.cs" />
+    <Compile Include="Verification\RobustnessMeasure\HonestPlan.cs" />
+    <Compile Include="Verification\TSVerifier.cs" />
+    <Compile Include="Verification\State.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>"D:\My Projects\CommandPrompt\Versioning\Versioning\bin\Release\Versioning.exe" "$(ProjectDir)</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

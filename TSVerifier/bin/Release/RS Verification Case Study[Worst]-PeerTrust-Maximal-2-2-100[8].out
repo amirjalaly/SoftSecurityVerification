@@ -1,0 +1,55 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: PeerTrust
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 8
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:45.6183798! 
+States count 35750#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 8 Done in 00:00:32.8054126! 
+                Best Value is           02.53.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 8 Done in 00:00:02.2820255! 
+                The Value is            00.40.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:07.6773285! 
+States count 12870#.
+
+MDP Solving <Value Itteration> for MaxEpoch 8 Done in 00:00:05.2124307! 
+                Best Value is           05.60.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.40
+                    Worst Plan Reward   02.53
+                    Attackers Ideal     05.60
+--------------------------------------------------
+                    Robustness Measure  00.59.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #284 out of #533
+#2>P[A1],P[A0], #138 out of #533
+#3>S[Bad],P[A0], #30 out of #533
+#4>P[A1],S[Bad], #30 out of #533
+#5>S[Bad],S[Good], #22 out of #533
+#6>S[Good],S[Bad], #22 out of #533
+#7>U[H0],S[Good], #3 out of #533
+#8>S[Good],U[H0], #3 out of #533
+#9>S[Good],S[Good], #1 out of #533

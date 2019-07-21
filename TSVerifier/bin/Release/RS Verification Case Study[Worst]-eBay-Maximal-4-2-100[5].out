@@ -1,0 +1,55 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: eBay
+Decision Function: Maximal
+Environment: 4 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.7925332! 
+States count 1031#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.5503650! 
+                Best Value is           00.62.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0240192! 
+                The Value is            00.17.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.1730794! 
+States count 378#.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.1126118! 
+                Best Value is           03.50.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.17
+                    Worst Plan Reward   00.62
+                    Attackers Ideal     03.50
+--------------------------------------------------
+                    Robustness Measure  00.86.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>P[A1],P[A0], #40 out of #139
+#2>S[Bad],S[Bad], #36 out of #139
+#3>P[A1],S[Bad], #20 out of #139
+#4>S[Bad],P[A0], #20 out of #139
+#5>P[A1],S[Good], #8 out of #139
+#6>S[Good],P[A0], #8 out of #139
+#7>S[Bad],S[Good], #3 out of #139
+#8>S[Good],S[Bad], #3 out of #139
+#9>S[Good],S[Good], #1 out of #139

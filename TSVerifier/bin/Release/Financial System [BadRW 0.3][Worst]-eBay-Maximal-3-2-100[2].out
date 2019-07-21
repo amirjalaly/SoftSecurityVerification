@@ -1,0 +1,11 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.3]
+Reputation Model: eBay
+Decision Function: Maximal
+Environment: 3 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 2
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:00:00.0580441! 
+States count 23#.

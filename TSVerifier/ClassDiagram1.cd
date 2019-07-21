@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RSVerifier.Attacks.CollusionPromoting&lt;History, Rep, RepM&gt;" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIRAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attacks\CollPromoting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Attacks.CollusionSlandering&lt;History, Rep, RepM&gt;" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIRAAEAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Attacks\CullSlandering.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Attacks.On_Off&lt;History&gt;" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAJAAEAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Attacks\On-Off.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Attacks.Oscillation&lt;History, Rep, RepModel&gt;" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAABAAEAAAAAAAAAAAAAAAQAAAAIAAAAAAAA=</HashCode>
+      <FileName>Attacks\Oscillation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Attacks.Promoting&lt;History&gt;" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAARAAEAAAAAAAAAAAAQAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Attacks\Promoting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Attacks.ReEntry&lt;History, Reputation, ReputationModel&gt;" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attacks\ReEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Attacks.SimpleMalic&lt;History&gt;" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attacks\SimpleMalic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Attacks.Slandering&lt;History&gt;" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAARAAEAAAAAAAAAAAAAAAIAAAAAIAAAAAAA=</HashCode>
+      <FileName>Attacks\Slandering.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.CaseStudies.Systems.FaultyEnvironment" Collapsed="true">
+    <Position X="6.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaseStudies\Systems\FaultyEnvironment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.CaseStudies.System.FinancialSystem&lt;History, Reputation, ReputationModel&gt;" Collapsed="true">
+    <Position X="10.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaseStudies\Systems\FinancialSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.CaseStudies.System.FinancialReward" Collapsed="true">
+    <Position X="9.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaseStudies\Systems\FinancialSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.CaseStudies.WorstCase.eBay.FinancialVerifier" Collapsed="true">
+    <Position X="10.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaseStudies\WorstCase\eBay\FinancialSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.CaseStudies.WorstCase.FaultySystemVerifier&lt;History, Reputation, ReputationModel&gt;" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaseStudies\WorstCase\FaultySystemVerifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.CaseStudies.WorstCase.FinancialVerifier&lt;History, Reputation, ReputationModel&gt;" Collapsed="true">
+    <Position X="15.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaseStudies\WorstCase\FinancialVerifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Console" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABCAAAAAAAIAAAIAAAAAAACAAAAIAAAAABAAABAAAA=</HashCode>
+      <FileName>Console.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.IAction" Collapsed="true">
+    <Position X="12.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>MDP\IAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.MDPPlan&lt;State, Action&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIABAAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MDP\IPlan.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.IState" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>MDP\IState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.MDP&lt;State, Action&gt;" Collapsed="true">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACIAAAAAAAAAAABCBAASAAEAAEAAAgAAAAKAQ=</HashCode>
+      <FileName>MDP\MDP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.MDPSolver&lt;State, Action&gt;" Collapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAgAAAAAAABAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>MDP\MDPSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.ISimulator&lt;State, Action&gt;" Collapsed="true">
+    <Position X="3.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>MDP\Simulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Program" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAKAAgABAAAAAAAASAAAAAAABgAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Action" Collapsed="true">
+    <Position X="12.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAESAAAAAAAAAAAAAAAAAEAAAABAAA=</HashCode>
+      <FileName>RepSystem\Attackers\Action.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.AtomicAction" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Attackers\AtomicAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.ServiceAction" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Attackers\AtomicAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.UnfairRatingAction" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Attackers\AtomicAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.PromotingAction" Collapsed="true">
+    <Position X="0.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Attackers\AtomicAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.ReEntryAction" Collapsed="true">
+    <Position X="3" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Attackers\AtomicAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Attacker" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAIAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Attackers\Attacker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.IPlan&lt;History&gt;" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Attackers\Plan.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RSVerifier.Rewards" Collapsed="true">
+    <Position X="9.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAEAAAAEAAAAAQAAgAAAIAAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Attackers\Rewards.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.MaximalDecision&lt;History, Reputation, ReputationModel&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAEAA=</HashCode>
+      <FileName>RepSystem\Environment\DecisionMaking\IDecision.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.ProbabilisticDecision&lt;History, Reputation, ReputationModel&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAABAAAAQAAAAAAAACEAA=</HashCode>
+      <FileName>RepSystem\Environment\DecisionMaking\IDecision.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.Environment" Collapsed="true">
+    <Position X="6.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgA=</HashCode>
+      <FileName>RepSystem\Environment\Environment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.HonestEntity" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Environment\Honesties\Provider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.FaultyEntity" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Environment\Honesties\Provider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Clients" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>RepSystem\Environment\Honesties\Provider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.IEntity" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAQQAAAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>RepSystem\Environment\IEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RSVerifier.Distribution&lt;T&gt;" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Environment\IEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.IHistory" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAjA=</HashCode>
+      <FileName>RepSystem\Reputation\IHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Simulator&lt;History, Reputation, ReputationModel&gt;" Collapsed="true">
+    <Position X="3.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAABAAIAAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Verification\RepSimulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.RepSystem&lt;History, Reputation, ReputationModel&gt;" Collapsed="true">
+    <Position X="11.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAIAAACAAAAEAAQQAAAAAAQQAAAAAAAAABAQ=</HashCode>
+      <FileName>Verification\RepSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.RSVerifier&lt;History, Reputation, ReputationModel&gt;" Collapsed="true">
+    <Position X="13" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAEAQCAIAQAEABAAAAAAQAAAAAAAEAAAAAAAABAAA=</HashCode>
+      <FileName>Verification\RSVerifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.State&lt;THistory&gt;" Collapsed="true">
+    <Position X="0.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAAAAAAAQEAAAAAAAAAIgAAAAACAEAAAAAAAA=</HashCode>
+      <FileName>Verification\State.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RSVerifier.RepSystem.Environment.DecisionMaking.RiskyDecisionMaking&lt;History, Reputation, ReputationModel&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAEAA=</HashCode>
+      <FileName>RepSystem\Environment\DecisionMaking\RiskyDecisionMaking.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.ReputationModels.Beta.ReputationModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReputationModels\Beta\BetaReputation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.ReputationModels.Core.ReputationModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReputationModels\Core\CoreReputationModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.ReputationModels.eBay.ReputationModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReputationModels\eBay\eBayReputation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.ReputationModels.EigenTrust.ReputationModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAACAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReputationModels\EigenTrust\EigenTrustModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.ReputationModels.PeerTrust.ReputationModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAACAAAAgAAAAAAAAQAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>ReputationModels\PeerTrust\PeerTrustModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.ReputationModels.Regret.ReputationModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReputationModels\Regret\RegretReputation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.ReputationModels.Sporas.ReputationModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReputationModels\Sporas\SporasModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.Verification.RobustnessMeasure.AttackerIdealSystem&lt;History, Reputation, ReputationModel&gt;" Collapsed="true">
+    <Position X="12.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verification\RobustnessMeasure\AttackerIdealSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RSVerifier.Verification.RobustnessMeasure.AttackersIdealDecisionMaking&lt;ReputationModel, Reputation, History&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Verification\RobustnessMeasure\AttackersIdealDecisionMaking.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RSVerifier.Verification.RobustnessMeasure.HonestPlan&lt;History&gt;" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verification\RobustnessMeasure\HonestPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RSVerifier.IPlan&lt;State, Action&gt;" Collapsed="true">
+    <Position X="23.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MDP\IPlan.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RSVerifier.IDecision&lt;ReputationModel, Reputation, History&gt;" Collapsed="true">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>RepSystem\Environment\DecisionMaking\IDecision.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RSVerifier.IReputationModel&lt;History, Reputation&gt;" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepSystem\Reputation\IReputation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="RSVerifier.ActionType" Collapsed="true">
+    <Position X="21.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAACQAAAAAAAAAAAAQAAAAAAAAAEAAAA=</HashCode>
+      <FileName>RepSystem\Attackers\AtomicAction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RSVerifier.QoS" Collapsed="true">
+    <Position X="23.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>RepSystem\Reputation\QoS.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

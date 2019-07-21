@@ -1,0 +1,55 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: Core
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 10
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:03:41.7445184! 
+States count 143466#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:00:40.8362965! 
+                Best Value is           03.25.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 10 Done in 00:00:03.0010062! 
+                The Value is            00.50.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:23.9985734! 
+States count 36879#.
+
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:00:07.7075917! 
+                Best Value is           07.00.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.50
+                    Worst Plan Reward   03.25
+                    Attackers Ideal     07.00
+--------------------------------------------------
+                    Robustness Measure  00.58.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #1160 out of #2211
+#2>P[A1],P[A0], #526 out of #2211
+#3>S[Bad],P[A0], #126 out of #2211
+#4>P[A1],S[Bad], #126 out of #2211
+#5>S[Bad],S[Good], #117 out of #2211
+#6>S[Good],S[Bad], #117 out of #2211
+#7>U[H0],S[Good], #19 out of #2211
+#8>S[Good],U[H0], #19 out of #2211
+#9>S[Good],S[Good], #1 out of #2211

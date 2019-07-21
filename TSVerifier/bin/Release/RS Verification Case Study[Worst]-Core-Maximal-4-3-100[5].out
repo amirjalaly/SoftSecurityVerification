@@ -1,0 +1,53 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: Core
+Decision Function: Maximal
+Environment: 4 Honest Provider, 3 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:54.6627081! 
+States count 6883#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:27.8444485! 
+                Best Value is           01.27.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.1430946! 
+                The Value is            00.21.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:13.5591651! 
+States count 2223#.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:06.7925462! 
+                Best Value is           03.50.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.21
+                    Worst Plan Reward   01.27
+                    Attackers Ideal     03.50
+--------------------------------------------------
+                    Robustness Measure  00.68.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad],S[Bad], #132 out of #189
+#2>P[A1],P[A0],P[A0], #40 out of #189
+#3>P[A2],S[Bad],P[A0], #4 out of #189
+#4>P[A2],P[A0],P[A0], #4 out of #189
+#5>S[Bad],P[A2],P[A1], #4 out of #189
+#6>P[A1],P[A2],P[A1], #4 out of #189
+#7>S[Good],S[Good],S[Good], #1 out of #189

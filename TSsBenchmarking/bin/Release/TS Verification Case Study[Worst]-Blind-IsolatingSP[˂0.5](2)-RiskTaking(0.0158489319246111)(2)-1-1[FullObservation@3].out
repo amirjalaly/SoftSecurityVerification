@@ -1,0 +1,43 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Blind
+Knowledge Level: FullObservation
+Environment: 2 IsolatingSP[˂0.5], 2 RiskTaking(0.0158489319246111), 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 3
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:00. [States count: 165#]
+--------------------------------------------------
+MDP Solving <Value Itteration> is done in 00:00:00.0547350.
+                Best Value is           01.00.
+--------------------------------------------------
+Starting Honest Reward Solving...
+States generation is completed in 00:00:00. [States count: 84#]
+MDP Solving for Plan<Honest> is done in 00:00:00.0030017. 
+                The Value is            00.00.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+Epoch 0
+Max Selected Actions:
+#1>S[Bad],R[H_0] H_0:-1,H_1:-1,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],R[H_0] H_0:-1,H_1:-1,, #8 out of #8
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],R[H_0] H_0:-1,H_1:-1,, #36 out of #36
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.00
+                    Attackers Ideal     03.00
+--------------------------------------------------
+                    Robustness Measure  00.67.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

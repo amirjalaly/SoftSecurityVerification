@@ -1,0 +1,14 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: REGRET
+Knowledge Level: For all levels
+Environment: 2 HonestSP, 2 ProbabilisticClient, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 9
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:25:31. [States count: 84575#]
+--------------------------------------------------
+MDP Solving <Value Itteration> is done in 00:03:25.0996785.
+                Best Value is           03.75.
+Starting Honest Reward Solving...

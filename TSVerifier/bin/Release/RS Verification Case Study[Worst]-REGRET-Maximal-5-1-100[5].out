@@ -1,0 +1,48 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: REGRET
+Decision Function: Maximal
+Environment: 5 Honest Provider, 1 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.1277434! 
+States count 854#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.0750496! 
+                Best Value is           00.28.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0210143! 
+                The Value is            00.08.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.0120072! 
+States count 219#.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.0100071! 
+                Best Value is           03.50.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.08
+                    Worst Plan Reward   00.28
+                    Attackers Ideal     03.50
+--------------------------------------------------
+                    Robustness Measure  00.94.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad], #22 out of #25
+#2>S[Good], #3 out of #25

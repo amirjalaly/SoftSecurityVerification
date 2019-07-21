@@ -1,0 +1,17 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.3]
+Reputation Model: eBay
+Attack Plan: ReEnter Attack
+Decision Function: Maximal
+Environment: 1 Honest Provider, 1 Attackers, 100 Clients
+Maximum Epoch: 100
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.0059991! 
+States count 201#.
+--------------------------------------------------
+MDP Solving for Plan<ReEnter Attack> for MaxEpoch 100 Done in 00:00:00.0181227! 
+                The Value is            -09.55.

@@ -1,0 +1,71 @@
+Begin TS Verification Against Worst Case:
+Verification Title: TS Verification Case Study
+Trust Model: Subjective Logic
+Environment: 2 Honest SP, 2 Honest Clients, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 8
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:00:17.4244676! 
+States count 11050#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 8 Done in 00:00:40.6413161! 
+                Best Value is           02.13.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:00.0775366! 
+States count 833#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 8 Done in 00:00:00.1921297! 
+                The Value is            00.53.
+Honest Plan Solving is Done...
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+Epoch 0
+Max Selected Actions:
+#1>S[Good],U[H_0] H_0:(0,1,0),H_1:(0,1,0),, #1 out of #1
+--------------------------------------------------
+Epoch 1
+Max Selected Actions:
+#1>S[Good],U[H_0] H_0:(0,1,0),H_1:(0,1,0),, #3 out of #5
+#2>S[Bad],U[H_0] H_0:(0,1,0),H_1:(0,1,0),, #2 out of #5
+--------------------------------------------------
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:(0,1,0),H_1:(0,1,0),, #14 out of #21
+#2>S[Good],U[H_0] H_0:(0,1,0),H_1:(0,1,0),, #7 out of #21
+--------------------------------------------------
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:(0,1,0),H_1:(0,1,0),, #79 out of #79
+--------------------------------------------------
+Epoch 4
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:(0,1,0),H_1:(0,1,0),, #279 out of #279
+--------------------------------------------------
+Epoch 5
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:(0,1,0),H_1:(0,1,0),, #965 out of #965
+--------------------------------------------------
+Epoch 6
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:(0,1,0),H_1:(0,1,0),, #3285 out of #3285
+--------------------------------------------------
+Epoch 7
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:(0,1,0),H_1:(0,1,0),, #11043 out of #11043
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward       00.53
+                    Worst Plan Reward   02.13
+                    Attackers Ideal     08.00
+--------------------------------------------------
+                    Robustness Measure  00.79.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

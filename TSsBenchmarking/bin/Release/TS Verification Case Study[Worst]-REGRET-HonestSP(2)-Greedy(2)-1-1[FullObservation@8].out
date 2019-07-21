@@ -1,0 +1,70 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: REGRET
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 Greedy, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 8
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:02:49. [States count: 34213#]
+--------------------------------------------------
+MDP Solving <Value Itteration> is done in 00:00:22.6534965.
+                Best Value is           08.00.
+--------------------------------------------------
+Starting Honest Reward Solving...
+States generation is completed in 00:00:00. [States count: 1267#]
+MDP Solving for Plan<Honest> is done in 00:00:00.0410240. 
+                The Value is            02.67.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:-1,H_1:-1,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Good],N H_0:-1,H_1:-1,, #6 out of #8
+#2>S[Bad],N H_0:-1,H_1:-1,, #2 out of #8
+Epoch 2
+Max Selected Actions:
+#1>S[Good],N H_0:-1,H_1:-1,, #28 out of #38
+#2>S[Bad],N H_0:-1,H_1:-1,, #9 out of #38
+#3>S[Bad],R[H_0] H_0:-1,H_1:-1,, #1 out of #38
+Epoch 3
+Max Selected Actions:
+#1>S[Good],N H_0:-1,H_1:-1,, #100 out of #140
+#2>S[Bad],N H_0:-1,H_1:-1,, #30 out of #140
+#3>S[Bad],R[H_0] H_0:-1,H_1:-1,, #10 out of #140
+Epoch 4
+Max Selected Actions:
+#1>S[Good],N H_0:-1,H_1:-1,, #302 out of #442
+#2>S[Bad],N H_0:-1,H_1:-1,, #94 out of #442
+#3>S[Bad],R[H_0] H_0:-1,H_1:-1,, #46 out of #442
+Epoch 5
+Max Selected Actions:
+#1>S[Good],N H_0:-1,H_1:-1,, #820 out of #1260
+#2>S[Bad],N H_0:-1,H_1:-1,, #286 out of #1260
+#3>S[Bad],R[H_0] H_0:-1,H_1:-1,, #154 out of #1260
+Epoch 6
+Max Selected Actions:
+#1>S[Good],N H_0:-1,H_1:-1,, #2050 out of #3347
+#2>S[Bad],N H_0:-1,H_1:-1,, #848 out of #3347
+#3>S[Bad],R[H_0] H_0:-1,H_1:-1,, #449 out of #3347
+Epoch 7
+Max Selected Actions:
+#1>S[Bad],N H_0:-1,H_1:-1,, #7236 out of #8448
+#2>S[Bad],R[H_0] H_0:-1,H_1:-1,, #1212 out of #8448
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward       02.67
+                    Worst Plan Reward   08.00
+                    Attackers Ideal     08.00
+--------------------------------------------------
+                    Robustness Measure  00.00.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

@@ -1,0 +1,46 @@
+Begin TS Verification Against Worst Case:
+Verification Title: TS Verification Case Study
+Trust Model: REGRET
+Environment: 2 Honest SP, 2 Honest Clients, 1 Malicious SP, 1 Malicious Clients
+Knowledge Level: ZeroKnowledge
+Maximum Epoch: 2
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:00:07.2958657! 
+States count 216#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 2 Done in 00:00:00.1778736! 
+                Best Value is           01.18.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:00.0040022! 
+States count 25#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 2 Done in 00:00:00.0050058! 
+                The Value is            00.13.
+Honest Plan Solving is Done...
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+Epoch 0
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:-1,H_1:-1,, #1 out of #1
+--------------------------------------------------
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:-1,H_1:-1,, #1 out of #1
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward       00.13
+                    Worst Plan Reward   01.18
+                    Attackers Ideal     02.00
+--------------------------------------------------
+                    Robustness Measure  00.44.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

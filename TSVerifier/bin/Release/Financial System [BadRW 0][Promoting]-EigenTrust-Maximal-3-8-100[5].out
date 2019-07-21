@@ -1,0 +1,34 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: EigenTrust
+Attack Plan: Promoting
+Decision Function: Maximal
+Environment: 3 Honest Provider, 8 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.2766077! 
+States count 2274#.
+--------------------------------------------------
+MDP Solving for Plan<Promoting> for MaxEpoch 5 Done in 00:00:00.7635127! 
+                The Value is            00.61.
+--------------------------------------------------
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward           00.50
+                    Plan Expected Reward    00.61
+                    Attackers Ideal Reward  01.00
+--------------------------------------------------
+                    Robustness Measure  00.78.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

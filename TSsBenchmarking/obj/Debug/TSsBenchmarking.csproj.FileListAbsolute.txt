@@ -1,0 +1,14 @@
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TSsBenchmarking\obj\Debug\TSsBenchmarking.csprojResolveAssemblyReference.cache
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TSsBenchmarking\bin\Debug\TSsBenchmarking.exe
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TSsBenchmarking\bin\Debug\TSsBenchmarking.pdb
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TSsBenchmarking\bin\Debug\TruSyFire.dll
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TSsBenchmarking\bin\Debug\TruSyFire.pdb
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TSsBenchmarking\obj\Debug\TSsBenchmarking.exe
+E:\Academic\PhD\Thesis\Programming\TSVerifier\TSsBenchmarking\obj\Debug\TSsBenchmarking.pdb
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarking\obj\Debug\TSsBenchmarking.exe
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarking\obj\Debug\TSsBenchmarking.pdb
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarking\bin\Debug\TSsBenchmarking.exe
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarking\bin\Debug\TSsBenchmarking.pdb
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarking\bin\Debug\TruSyFire.dll
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarking\bin\Debug\TruSyFire.pdb
+D:\My Academic\PhD\Thesis\Programming\TruSyFire\TSVerifier\TSsBenchmarking\obj\Debug\TSsBenchmarking.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Subjective Logic
+Attack Plan: On-Off Attack
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 1 Greedy, 2 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 1
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

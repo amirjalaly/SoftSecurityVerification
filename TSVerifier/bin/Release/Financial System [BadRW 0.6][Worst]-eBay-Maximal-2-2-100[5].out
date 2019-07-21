@@ -1,0 +1,55 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.6]
+Reputation Model: eBay
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.1721156! 
+States count 347#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.1040696! 
+                Best Value is           00.60.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0080054! 
+                The Value is            00.25.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.0450294! 
+States count 196#.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.0410263! 
+                Best Value is           02.00.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.25
+                    Worst Plan Reward   00.60
+                    Attackers Ideal     02.00
+--------------------------------------------------
+                    Robustness Measure  00.80.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #20 out of #75
+#2>P[A1],P[A0], #20 out of #75
+#3>P[A1],S[Bad], #10 out of #75
+#4>S[Bad],P[A0], #10 out of #75
+#5>P[A1],S[Good], #4 out of #75
+#6>S[Good],P[A0], #4 out of #75
+#7>S[Bad],S[Good], #3 out of #75
+#8>S[Good],S[Bad], #3 out of #75
+#9>S[Good],S[Good], #1 out of #75

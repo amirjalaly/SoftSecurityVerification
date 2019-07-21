@@ -1,0 +1,29 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: REGRET
+Attack Plan: Slandering
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 ProbabilisticClient, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 8
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:00. [States count: 495#]
+--------------------------------------------------
+MDP Solving for Plan<Slandering> is done in 00:00:00.0219857. 
+                The Value is            01.12.
+--------------------------------------------------
+Starting Honest Reward Solving...
+States generation is completed in 00:00:01. [States count: 3003#]
+MDP Solving for Plan<Honest> is done in 00:00:00.1698947. 
+                The Value is            00.53.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           00.53
+                    Plan Expected Reward    01.12
+                    Attackers Ideal Reward  08.00
+--------------------------------------------------
+                    Robustness Measure  00.92.

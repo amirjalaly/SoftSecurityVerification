@@ -1,0 +1,46 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: Beta
+Attack Plan: On-Off
+Decision Function: Maximal
+Environment: 1 Honest Provider, 1 Attackers, 100 Clients
+Maximum Epoch: 300
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.0173355! 
+States count 601#.
+--------------------------------------------------
+MDP Solving for Plan<On-Off> for MaxEpoch 300 Done in 00:00:00.0545368! 
+                The Value is            02.50.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 300 Done in 00:00:00.0553825! 
+                The Value is            00.00.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.0050067! 
+States count 301#.
+--------------------------------------------------
+MDP Solving for Plan<On-Off> for MaxEpoch 300 Done in 00:00:00.0470602! 
+                The Value is            150.00.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward           00.00
+                    Plan Expected Reward    02.50
+                    Attackers Ideal Reward  150.00
+--------------------------------------------------
+                    Robustness Measure  00.98.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

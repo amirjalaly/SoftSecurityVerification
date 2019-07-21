@@ -1,0 +1,94 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Subjective Logic
+Knowledge Level: FullObservation
+Environment: 2 IsolatingSP[˂(0,0,1)], 2 ProbabilisticClient, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 8
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:09:01. [States count: 45659#]
+--------------------------------------------------
+MDP Solving <Value Itteration> is done in 00:00:38.9066311.
+                Best Value is           01.69.
+--------------------------------------------------
+Starting Honest Reward Solving...
+States generation is completed in 00:00:02. [States count: 3003#]
+MDP Solving for Plan<Honest> is done in 00:00:00.1408533. 
+                The Value is            00.00.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+Epoch 0
+Max Selected Actions:
+#1>S[Good],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #4 out of #8
+#2>S[Good],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #3 out of #8
+#3>S[Good],R[H_1] H_0:(0,1,0),H_1:(0,1,0),, #1 out of #8
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #16 out of #40
+#2>S[Good],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #10 out of #40
+#3>S[Bad],R[H_0] H_0:(1,0,0),H_1:(0,1,0),, #3 out of #40
+#4>S[Good],R[H_1] H_0:(0,1,0),H_1:(0,1,0),, #3 out of #40
+#5>S[Bad],R[H_1] H_0:(0,1,0),H_1:(0,1,0),, #3 out of #40
+#6>S[Bad],R[H_0] H_0:(0,1,0),H_1:(1,0,0),, #3 out of #40
+#7>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #2 out of #40
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #74 out of #158
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(1,0,0),, #26 out of #158
+#3>S[Bad],R[H_1] H_0:(0,1,0),H_1:(0,1,0),, #17 out of #158
+#4>S[Bad],R[H_0] H_0:(1,0,0),H_1:(0,1,0),, #16 out of #158
+#5>S[Good],N H_0:(0,1,0),H_1:(0,1,0),, #10 out of #158
+#6>S[Bad],R[H_1] H_0:(1,0,0),H_1:(0,1,0),, #9 out of #158
+#7>S[Good],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #4 out of #158
+#8>S[Bad],R[H_0] H_0:(1,0,0),H_1:(1,0,0),, #2 out of #158
+Epoch 4
+Max Selected Actions:
+#1>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #258 out of #538
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(1,0,0),, #118 out of #538
+#3>S[Bad],R[H_0] H_0:(1,0,0),H_1:(0,1,0),, #55 out of #538
+#4>S[Bad],R[H_1] H_0:(0,1,0),H_1:(0,1,0),, #47 out of #538
+#5>S[Bad],R[H_1] H_0:(1,0,0),H_1:(0,1,0),, #44 out of #538
+#6>S[Bad],R[H_0] H_0:(1,0,0),H_1:(1,0,0),, #15 out of #538
+#7>S[Bad],R[H_1] H_0:(0,1,0),H_1:(1,0,0),, #1 out of #538
+Epoch 5
+Max Selected Actions:
+#1>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #879 out of #1630
+#2>S[Bad],R[H_0] H_0:(0,1,0),H_1:(1,0,0),, #269 out of #1630
+#3>S[Bad],R[H_0] H_0:(1,0,0),H_1:(0,1,0),, #169 out of #1630
+#4>S[Bad],R[H_1] H_0:(1,0,0),H_1:(0,1,0),, #148 out of #1630
+#5>S[Bad],R[H_1] H_0:(0,1,0),H_1:(0,1,0),, #135 out of #1630
+#6>S[Bad],R[H_0] H_0:(1,0,0),H_1:(1,0,0),, #26 out of #1630
+#7>S[Bad],R[H_1] H_0:(1,0,0),H_1:(1,0,0),, #2 out of #1630
+#8>S[Bad],R[H_1] H_0:(0,1,0),H_1:(1,0,0),, #2 out of #1630
+Epoch 6
+Max Selected Actions:
+#1>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #2923 out of #4496
+#2>S[Bad],R[H_1] H_0:(0,1,0),H_1:(0,1,0),, #593 out of #4496
+#3>S[Bad],R[H_0] H_0:(0,1,0),H_1:(1,0,0),, #478 out of #4496
+#4>S[Bad],R[H_0] H_0:(1,0,0),H_1:(0,1,0),, #274 out of #4496
+#5>S[Bad],R[H_1] H_0:(1,0,0),H_1:(0,1,0),, #211 out of #4496
+#6>S[Bad],R[H_0] H_0:(1,0,0),H_1:(1,0,0),, #9 out of #4496
+#7>S[Bad],R[H_1] H_0:(0,1,0),H_1:(1,0,0),, #7 out of #4496
+#8>S[Bad],R[H_1] H_0:(1,0,0),H_1:(1,0,0),, #1 out of #4496
+Epoch 7
+Max Selected Actions:
+#1>S[Bad],R[H_0] H_0:(0,1,0),H_1:(0,1,0),, #9344 out of #11460
+#2>S[Bad],R[H_1] H_0:(0,1,0),H_1:(0,1,0),, #2116 out of #11460
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward       00.00
+                    Worst Plan Reward   01.69
+                    Attackers Ideal     08.00
+--------------------------------------------------
+                    Robustness Measure  00.79.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

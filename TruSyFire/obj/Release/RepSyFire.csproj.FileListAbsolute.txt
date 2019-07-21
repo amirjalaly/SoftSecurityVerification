@@ -1,0 +1,5 @@
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RepSyFire\obj\Release\RepSyFire.csprojResolveAssemblyReference.cache
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RepSyFire\bin\Release\RepSyFire.dll
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RepSyFire\bin\Release\RepSyFire.pdb
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RepSyFire\obj\Release\RepSyFire.dll
+E:\Academic\PhD\Thesis\Programming\3rd Journal Verification Tool\RSVerifier\RepSyFire\obj\Release\RepSyFire.pdb

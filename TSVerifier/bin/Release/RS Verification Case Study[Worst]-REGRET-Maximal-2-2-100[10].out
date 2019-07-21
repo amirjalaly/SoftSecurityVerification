@@ -1,0 +1,56 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: REGRET
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 10
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:32.4268161! 
+States count 43584#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:00:16.7618545! 
+                Best Value is           01.75.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 10 Done in 00:00:01.1055390! 
+                The Value is            00.50.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:26.0574288! 
+States count 36879#.
+
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:00:09.3282102! 
+                Best Value is           07.00.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.50
+                    Worst Plan Reward   01.75
+                    Attackers Ideal     07.00
+--------------------------------------------------
+                    Robustness Measure  00.81.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #924 out of #1827
+#2>P[A1],P[A0], #466 out of #1827
+#3>S[Bad],P[A0], #109 out of #1827
+#4>P[A1],S[Bad], #109 out of #1827
+#5>S[Bad],S[Good], #105 out of #1827
+#6>S[Good],S[Bad], #105 out of #1827
+#7>U[H0],S[Good], #3 out of #1827
+#8>S[Good],U[H0], #3 out of #1827
+#9>S[Good],S[Good], #2 out of #1827
+#10>U[H0],U[H0], #1 out of #1827

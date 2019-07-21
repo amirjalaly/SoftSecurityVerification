@@ -1,0 +1,46 @@
+States generation is completes in 00:00:10.1725695! 
+States count 27#.
+States generation is completes in 00:00:09.0420317! 
+States count 27#.
+States generation is completes in 00:00:09.4254383! 
+States count 27#.
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:06.4428123! 
+                Best Value is -Infinity.
+States generation is completes in 00:00:08.9211965! 
+States count 27#.
+States generation is completes in 00:00:09.0105935! 
+States count 27#.
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:22.1094304! 
+                Best Value is -Infinity.
+Max Selected Actions:
+States generation is completes in 00:00:08.9253647! 
+States count 27#.
+States generation is completes in 00:00:09.5632632! 
+States count 27#.
+States generation is completes in 00:00:09.2443070! 
+States count 27#.
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:06.3912635! 
+                Best Value is -Infinity.
+Max Selected Actions:
+States generation is completes in 00:00:09.6377240! 
+States count 27#.
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:06.4843254! 
+                Best Value is 0.161538461538462.
+Max Selected Actions:
+#1>RSVerifier.Action #1 out of #1
+States generation is completes in 00:00:09.3396732! 
+States count 27#.
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:06.6270382! 
+                Best Value is 0.161538461538462.
+Max Selected Actions:
+#1>S[Bad],S[Bad],S[Bad], #1 out of #1
+States generation is completes in 00:00:11.0080317! 
+States count 27#.
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:07.0777205! 
+                Best Value is 0.161538461538462.
+Max Selected Actions:
+#1>S[Bad],S[Bad],S[Bad], #1 out of #1
+States generation is completes in 00:00:07.3730065! 
+States count 27#.
+MDP Solving <Value Itteration> for MaxEpoch 1 Done in 00:00:05.3650721! 
+                Best Value is 0.161538461538462.

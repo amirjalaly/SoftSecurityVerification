@@ -1,0 +1,30 @@
+States generation is completes in 00:00:27.8873603! 
+States count 8155#.
+MDP Solving <Value Itteration> for MaxEpoch 8 Done in 00:00:06.4987079! 
+                Best Value is 20.4225498885726.
+Max Selected Actions:
+#1>P[A1],P[A0], #1055 out of #1870
+#2>P[A1],S[Good], #305 out of #1870
+#3>S[Good],P[A0], #305 out of #1870
+#4>P[A1],S[Bad], #62 out of #1870
+#5>S[Bad],P[A0], #62 out of #1870
+#6>P[A1],U[H1], #20 out of #1870
+#7>U[H1],P[A0], #20 out of #1870
+#8>P[A1],U[H0], #20 out of #1870
+#9>U[H0],P[A0], #20 out of #1870
+#10>S[Good],S[Good], #1 out of #1870
+States generation is completes in 00:00:22.2150343! 
+States count 21139#.
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:00:16.7976417! 
+                Best Value is 26.2812371401216.
+Max Selected Actions:
+#1>P[A1],P[A0], #7087 out of #11858
+#2>P[A1],S[Good], #1619 out of #11858
+#3>S[Good],P[A0], #1619 out of #11858
+#4>P[A1],S[Bad], #420 out of #11858
+#5>S[Bad],P[A0], #420 out of #11858
+#6>P[A1],U[H1], #173 out of #11858
+#7>U[H1],P[A0], #173 out of #11858
+#8>P[A1],U[H0], #173 out of #11858
+#9>U[H0],P[A0], #173 out of #11858
+#10>S[Good],S[Good], #1 out of #11858

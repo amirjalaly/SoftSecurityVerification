@@ -1,0 +1,31 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0]
+Reputation Model: PeerTrust
+Attack Plan: Slandering
+Decision Function: Probablistic
+Environment: 3 Honest Provider, 7 Attackers, 7 Clients
+Maximum Epoch: 10
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:01:41.0871472! 
+States count 184756#.
+--------------------------------------------------
+MDP Solving for Plan<Slandering> for MaxEpoch 10 Done in 00:04:32.5185531! 
+                The Value is            00.55.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:02.5775660! 
+States count 8008#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 10 Done in 00:00:09.7231186! 
+                The Value is            00.50.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           00.50
+                    Plan Expected Reward    00.55
+                    Attackers Ideal Reward  01.00
+--------------------------------------------------
+                    Robustness Measure  00.89.

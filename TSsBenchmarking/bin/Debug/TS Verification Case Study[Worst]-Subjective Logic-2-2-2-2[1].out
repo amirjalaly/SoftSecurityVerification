@@ -1,0 +1,10 @@
+Begin TS Verification Against Worst Case:
+Verification Title: TS Verification Case Study
+Trust Model: Subjective Logic
+Environment: 2 Honest SP, 2 Honest Clients, 2 Malicious SP, 2 Malicious Clients
+Maximum Epoch: 1
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:00:00.4212785! 
+States count 17#.

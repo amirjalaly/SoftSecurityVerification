@@ -1,0 +1,16 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: Blind
+Attack Plan: Slandering
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 ProbToGreedyClient, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 14
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:01. [States count: 3060#]
+--------------------------------------------------
+MDP Solving for Plan<Slandering> is done in 00:00:00.2048741. 
+                The Value is            01.00.
+--------------------------------------------------
+Starting Honest Reward Solving...

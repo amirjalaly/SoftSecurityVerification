@@ -1,0 +1,11 @@
+Begin RS Verification Against Worst Case:
+Verification Title: RS Verification Case Study
+Reputation Model: Sporas
+Decision Function: Maximal
+Environment: 4 Honest Provider, 4 Attackers, 100 Clients
+Maximum Epoch: 6
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

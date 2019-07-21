@@ -1,0 +1,110 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: PeerTrust
+Knowledge Level: For all levels
+Environment: 2 HonestSP, 2 Greedy, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 4
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:03. [States count: 492#]
+--------------------------------------------------
+MDP Solving <Value Itteration> is done in 00:00:00.1831286.
+                Best Value is           02.38.
+Starting Honest Reward Solving...
+States generation is completed in 00:00:00. [States count: 148#]
+MDP Solving for Plan<Honest> is done in 00:00:00.0044427. 
+                The Value is            00.00.
+--------------------------------------------------
+POMDP Estimating <QMDP> is done in 00:00:00.0230165.
+                Best Value is           02.38.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:0,H_1:0,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #1 out of #1
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #1 out of #1
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #1 out of #1
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: ZeroKnowledge
+                    Honest Reward       00.00
+                    Worst Plan Reward   02.38
+                    Attackers Ideal     04.00
+                    Robustness Measure  00.41.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.0200147.
+                Best Value is           02.38.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:0,H_1:0,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #2 out of #2
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #4 out of #4
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #6 out of #6
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: RecommendationValues
+                    Honest Reward       00.00
+                    Worst Plan Reward   02.38
+                    Attackers Ideal     04.00
+                    Robustness Measure  00.41.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.0220156.
+                Best Value is           02.38.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:0,H_1:0,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #1 out of #1
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #3 out of #3
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #5 out of #5
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: TrustValues
+                    Honest Reward       00.00
+                    Worst Plan Reward   02.38
+                    Attackers Ideal     04.00
+                    Robustness Measure  00.41.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+POMDP Estimating <QMDP> is done in 00:00:00.0190116.
+                Best Value is           02.38.
+Epoch 0
+Max Selected Actions:
+#1>S[Good],N H_0:0,H_1:0,, #1 out of #1
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #2 out of #2
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #4 out of #4
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],N H_0:0,H_1:0,, #6 out of #6
+--------------------------------------------------
+Worst Case Estimating for Knwoledge Level: FullObservation
+                    Honest Reward       00.00
+                    Worst Plan Reward   02.38
+                    Attackers Ideal     04.00
+                    Robustness Measure  00.41.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

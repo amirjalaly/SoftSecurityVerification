@@ -1,0 +1,49 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.3]
+Reputation Model: eBay
+Attack Plan: On-Off
+Decision Function: Probablistic
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 1
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.0380240! 
+States count 5#.
+--------------------------------------------------
+MDP Solving for Plan<On-Off> for MaxEpoch 1 Done in 00:00:00.0140152! 
+                The Value is            00.05.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:00.0010032! 
+States count 5#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 1 Done in 00:00:00.0006033! 
+                The Value is            00.05.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.0030036! 
+States count 3#.
+--------------------------------------------------
+MDP Solving for Plan<On-Off> for MaxEpoch 1 Done in 00:00:00.0030044! 
+                The Value is            00.10.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward           00.05
+                    Plan Expected Reward    00.05
+                    Attackers Ideal Reward  00.10
+--------------------------------------------------
+                    Robustness Measure  01.00.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

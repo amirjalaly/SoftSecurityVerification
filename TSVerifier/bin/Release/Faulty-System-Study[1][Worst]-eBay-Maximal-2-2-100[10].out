@@ -1,0 +1,53 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Faulty-System-Study[1]
+Reputation Model: eBay
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 10
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:03.2728728! 
+States count 6008#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:00:02.8634694! 
+                Best Value is           03.92.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 10 Done in 00:00:00.1711142! 
+                The Value is            00.93.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.6395016! 
+States count 1716#.
+
+MDP Solving <Value Itteration> for MaxEpoch 10 Done in 00:00:00.5239982! 
+                Best Value is           07.00.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.93
+                    Worst Plan Reward   03.92
+                    Attackers Ideal     07.00
+--------------------------------------------------
+                    Robustness Measure  00.51.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>P[A1],P[A0], #11950 out of #41261
+#2>S[Bad],S[Bad], #6350 out of #41261
+#3>S[Bad],S[Good], #6217 out of #41261
+#4>S[Good],S[Bad], #6217 out of #41261
+#5>P[A1],S[Bad], #5088 out of #41261
+#6>S[Bad],P[A0], #5088 out of #41261
+#7>S[Good],S[Good], #351 out of #41261

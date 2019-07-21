@@ -1,0 +1,65 @@
+Begin TS Verification Against Worst Case:
+Verification Title: TS Verification Case Study
+Trust Model: TRAVOS
+Environment: 2 Honest SP, 2 Honest Clients, 1 Malicious SP, 1 Malicious Clients
+Knowledge Level: FullObservation
+Maximum Epoch: 5
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completes in 00:00:22.1302660! 
+States count 5385#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:01.6380659! 
+                Best Value is           01.09.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:29.7252802! 
+States count 489#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0140053! 
+                The Value is            00.33.
+Honest Plan Solving is Done...
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+Epoch 0
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:255,0,H_1:255,0,, #1 out of #1
+--------------------------------------------------
+Epoch 1
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:255,0,H_1:255,0,, #5 out of #5
+--------------------------------------------------
+Epoch 2
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:0,255,H_1:0,255,, #7 out of #21
+#2>S[Bad],U[H_0] H_0:255,0,H_1:0,255,, #6 out of #21
+#3>S[Bad],U[H_0] H_0:0,255,H_1:255,0,, #6 out of #21
+#4>S[Bad],U[H_0] H_0:255,0,H_1:255,0,, #2 out of #21
+--------------------------------------------------
+Epoch 3
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:0,255,H_1:0,255,, #55 out of #77
+#2>S[Bad],U[H_0] H_0:255,0,H_1:0,255,, #11 out of #77
+#3>S[Bad],U[H_0] H_0:0,255,H_1:255,0,, #11 out of #77
+--------------------------------------------------
+Epoch 4
+Max Selected Actions:
+#1>S[Bad],U[H_0] H_0:0,255,H_1:0,255,, #233 out of #261
+#2>S[Bad],U[H_0] H_0:255,0,H_1:0,255,, #14 out of #261
+#3>S[Bad],U[H_0] H_0:0,255,H_1:255,0,, #14 out of #261
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward       00.33
+                    Worst Plan Reward   01.09
+                    Attackers Ideal     05.00
+--------------------------------------------------
+                    Robustness Measure  00.84.
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

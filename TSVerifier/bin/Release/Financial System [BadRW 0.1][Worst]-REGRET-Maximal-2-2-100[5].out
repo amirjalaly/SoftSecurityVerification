@@ -1,0 +1,53 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.1]
+Reputation Model: REGRET
+Decision Function: Maximal
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 5
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.3142083! 
+States count 823#.
+--------------------------------------------------
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.1926257! 
+                Best Value is           01.07.
+--------------------------------------------------
+Starting Honest Plan Solving...
+MDP Solving for Plan<Honest> for MaxEpoch 5 Done in 00:00:00.0164819! 
+                The Value is            00.25.
+Honest Plan Solving is Done...
+--------------------------------------------------
+Starting Attackers Ideal Solving...
+States generation is completes in 00:00:00.1240812! 
+States count 522#.
+
+MDP Solving <Value Itteration> for MaxEpoch 5 Done in 00:00:00.0885662! 
+                Best Value is           04.50.
+Attackers Ideal Reward is done...
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward       00.25
+                    Worst Plan Reward   01.07
+                    Attackers Ideal     04.50
+--------------------------------------------------
+                    Robustness Measure  00.81.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+Max Selected Actions:
+#1>S[Bad],S[Bad], #32 out of #61
+#2>P[A1],P[A0], #20 out of #61
+#3>S[Bad],S[Good], #2 out of #61
+#4>S[Good],S[Bad], #2 out of #61
+#5>S[Bad],P[A0], #2 out of #61
+#6>P[A1],S[Bad], #2 out of #61
+#7>S[Good],S[Good], #1 out of #61

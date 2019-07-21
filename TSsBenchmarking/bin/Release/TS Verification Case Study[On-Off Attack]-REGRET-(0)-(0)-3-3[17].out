@@ -1,0 +1,10 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: REGRET
+Attack Plan: On-Off Attack
+Knowledge Level: FullObservation
+Environment: 0 , 0 , 3 Malicious SP, 3 Malicious Clients
+Maximum Epoch: 17
+                 -------------                    
+--------------------------------------------------
+                 -------------                    

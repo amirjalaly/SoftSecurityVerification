@@ -1,0 +1,42 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.3]
+Reputation Model: eBay
+Attack Plan: Simple-Malic
+Decision Function: Maximal
+Environment: 1 Honest Provider, 1 Attackers, 100 Clients
+Maximum Epoch: 19
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.0020018! 
+States count 39#.
+--------------------------------------------------
+MDP Solving for Plan<Simple-Malic> for MaxEpoch 19 Done in 00:00:00.0055542! 
+                The Value is            00.35.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:00.0010022! 
+States count 39#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 19 Done in 00:00:00.0040026! 
+                The Value is            00.95.
+Honest Plan Solving is Done...
+--------------------------------------------------
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward           00.95
+                    Plan Expected Reward    00.35
+                    Attackers Ideal Reward  13.30
+--------------------------------------------------
+                    Robustness Measure  01.05.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

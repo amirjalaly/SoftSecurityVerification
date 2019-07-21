@@ -1,0 +1,42 @@
+Begin RS Verification Against Worst Case:
+Verification Title: Financial System [BadRW 0.3]
+Reputation Model: Sporas
+Attack Plan: Oscillation
+Decision Function: Probablistic
+Environment: 2 Honest Provider, 2 Attackers, 100 Clients
+Maximum Epoch: 10
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+States generation is completes in 00:00:00.3652424! 
+States count 3417#.
+--------------------------------------------------
+MDP Solving for Plan<Oscillation> for MaxEpoch 10 Done in 00:00:00.2761845! 
+                The Value is            01.32.
+--------------------------------------------------
+Starting Honest Plan Solving...
+States generation is completes in 00:00:00.0570378! 
+States count 1001#.
+--------------------------------------------------
+MDP Solving for Plan<Honest> for MaxEpoch 10 Done in 00:00:00.0770511! 
+                The Value is            00.39.
+Honest Plan Solving is Done...
+--------------------------------------------------
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+
+                    Honest Reward           00.39
+                    Plan Expected Reward    01.32
+                    Attackers Ideal Reward  07.00
+--------------------------------------------------
+                    Robustness Measure  00.86.
+
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+

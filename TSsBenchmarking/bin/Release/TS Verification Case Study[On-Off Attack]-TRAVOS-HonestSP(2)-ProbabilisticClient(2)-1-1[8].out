@@ -1,0 +1,24 @@
+Begin TS Verification Against Given Plan:
+Verification Title: TS Verification Case Study
+Trust Model: TRAVOS
+Attack Plan: On-Off Attack
+Knowledge Level: FullObservation
+Environment: 2 HonestSP, 2 ProbabilisticClient, 1 Malicious SP, 1 Malicious Clients
+Maximum Epoch: 8
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+States generation is completed in 00:00:14. [States count: 29503#]
+--------------------------------------------------
+MDP Solving for Plan<On-Off Attack> is done in 00:00:01.6309283. 
+                The Value is            03.43.
+--------------------------------------------------
+                 -------------                    
+--------------------------------------------------
+                 -------------                    
+
+                    Honest Reward           01.33
+                    Plan Expected Reward    03.43
+                    Attackers Ideal Reward  18.00
+--------------------------------------------------
+                    Robustness Measure  00.87.
